@@ -3,6 +3,13 @@
   padding: 0;
   background-color: #b5d287;
   box-sizing: border-box;
+  font-family: Zeyada;
+  font-weight: 200;
+
+}
+
+html {
+  font-size: 16px;
 }
 
 @font-face {
@@ -234,10 +241,127 @@ a:active {
 
 
 /* ここからメイン */
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  width: 20rem;
+  margin: 6rem auto;
+  border-bottom: 1px solid #4d5047;
+  line-height: 50%;
+  font-size: 5rem;
+  font-family: Zeyada;
+  color: #2b2d28;
+  transform: skewX(-0.05turn);
+  flex-shrink: 0;
+}
+
+h2 {
+  position: relative;
+  left: 15%;
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  color: #4d5047;
+}
+
+
+.collection {
+  margin: 0 5rem;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.collection>div {
+  flex: 0 0 calc(50% - 1rem);
+  /* 2枚ずつ並べる */
+  text-align: center;
+}
+
+.contents {
+  margin: 1rem 0;
+  padding: 0 2rem 1rem 2rem;
+}
+
+img {
   width: 100%;
+  height: 30vh;
+  box-shadow: 0 0 2px #44473f;
+  border-radius: 2%;
+  object-fit: cover;
+}
+
+.link {
+  display: inline-block;
+  margin: 0;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  border-radius: 1px;
+  text-decoration: none;
+  color: #fff !important;
+  background-color: #656565;
+  opacity: 0.6;
+  cursor: alias;
+  min-width: 380px;
+}
+
+.link:hover {
+  background-color: #b22222;
+}
+
+
+/* ここからレスポンシブ */
+@media(max-width: 600px) {
+  .outer-menu .hamburger {
+    width: 40px;
+    height: 40px;
+    padding: 0.3em 0.6em;
+  }
+
+  .outer-menu .hamburger>div,
+  .outer-menu .hamburger>div:before,
+  .outer-menu .hamburger>div:after {
+    height: 1px;
+  }
+
+  h1 {
+    width: 12rem;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    left: 20%
+  }
+
+
+  .link {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .collection {
+    margin: 0 2rem;
+    max-width: 90%;
+  }
+
+  .collection>div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contents {
+    max-width: 90%;
+  }
 }
