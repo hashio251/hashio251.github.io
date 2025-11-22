@@ -3,6 +3,12 @@
   padding: 0;
   background-color: #b5d287;
   box-sizing: border-box;
+  font-family: Zeyada;
+  font-weight: 200;
+}
+
+html {
+  font-size: 16px;
 }
 
 @font-face {
@@ -24,12 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: Zeyada;
-  font-weight: 200;
 }
 
 a,
@@ -118,7 +118,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #515D40;
+  background-color: #9aac67;
 }
 
 .outer-menu .hamburger>div {
@@ -126,7 +126,7 @@ h1 {
   flex: none;
   width: 100%;
   height: 2px;
-  background: #e5e5e5;
+  background: #515D40;
   transition: all 0.4s ease;
   display: flex;
   align-items: center;
@@ -240,166 +240,117 @@ h1 {
 }
 
 /* ここからメイン */
-header {
-  display: flex;
-  width: 100%;
-  height: 100px;
-
-  img {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    opacity: 0.6;
-  }
-}
-
 main {
-  .img-items {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
 
-    .img-1 {
-      width: 90%;
-      height: 80px;
-      object-fit: cover;
-      opacity: 0.6;
-    }
+.img-1,
+.img-2,
+.img-3 {
+  display: block;
+  object-fit: cover;
+  height: 15vh;
+  opacity: 0.6;
+}
 
-    .img-2 {
-      width: 80%;
-      height: 70px;
-      object-fit: cover;
-      opacity: 0.6;
-    }
-  }
+.img-1 {
+  width: 100%;
+}
 
-  .about-title {
-    text-align: center;
+.img-2 {
+  width: 90%;
+}
 
-    h1 {
-      margin-top: 100px;
-      font-size: 76px;
-      color: #4d5047;
-      transform: skewX(-0.03turn);
-      display: inline-block;
-      border-bottom: 1px solid #4d5047;
-      line-height: 50%;
-    }
-  }
+.img-3 {
+  width: 80%;
+}
 
-  .about-items {
-    margin-top: 10px;
-    margin-bottom: 80px;
-    display: flex;
-    float: right;
-
-    h2 {
-      margin-top: 40px;
-      text-align: center;
-      color: #4d5047;
-
-      .about-title {
-        display: flex;
-        margin-top: 25px;
-        text-align: left;
-        margin-left: 50px;
-        font-weight: bold;
-        font-size: 160%;
-      }
-    }
-
-    img {
-      margin: 45px 220px;
-      width: 500px;
-      height: 500px;
-      object-fit: cover;
-      opacity: 0.7;
-    }
-  }
+h1 {
+  display: block;
+  text-align: center;
+  width: 18rem;
+  margin: 8rem auto 0 auto;
+  font-size: 5rem;
+  border-bottom: 1px solid #4d5047;
+  line-height: 50%;
+  font-family: Zeyada;
+  color: #2b2d28;
+  transform: skewX(-0.05turn);
+  flex-shrink: 0;
 }
 
 
+.about-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-items .about-txt {
+  margin-left: 10rem;
+}
+
+.about-items img {
+  width: 45%;
+  height: 50vh;
+  margin: 8rem;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4d5047;
+}
+
+.txt {
+  margin-bottom: 2rem;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #4d5047;
+}
 
 
-/* responsive */
-@media screen and (max-width: 768px) {
-  .outer-menu {
-    top: 20px;
-    left: 20px;
-  }
-
+/* ここからレスポンシブ */
+@media(max-width: 600px) {
   .outer-menu .hamburger {
-    width: 35px;
-    height: 35px;
-    padding: 10px 10px;
-    border-radius: 0 1px 1px 0;
+    width: 40px;
+    height: 40px;
+    padding: 0.3em 0.6em;
   }
 
-  .outer-menu .checkbox-toggle{
-    width: 35px;
-    height: 35px;
-  }
-
-  .outer-menu .hamburger>div {
-    width: 100%;
-    height: 1px;
-  }
-
+  .outer-menu .hamburger>div,
   .outer-menu .hamburger>div:before,
   .outer-menu .hamburger>div:after {
     height: 1px;
   }
 
-  .outer-menu .menu > div {
-    width: 90vw;
-    height: 90vw;
-    min-width: 0;
-    min-height: 0;
+  .img-1,
+  .img-2,
+  .img-3 {
+    height: 8vh;
   }
 
-  .outer-menu .menu > div > div > ul > li {
-    font-size: 18px;
-    margin: 0.5em 0;
+  h1 {
+    width: 9rem;
+    font-size: 3rem;
   }
 
-
-
-  /* main */
-  header{
-    height: 50px;
-    img{
-      height: 50px;
-    }
+  .about-items {
+    transform: scale(0.65);
   }
 
-  main{
-    .img-items{
-      .img-1{
-        height: 40px;
-      }
-      .img-2{
-        height: 30px;
-      }
-    }
-    .about-title{
-      height: 50px;
-      h1{
-        font-size: 32px;
-        line-height: 40%;
-        position: relative;
-        bottom: 40px;
-      }
-    }
-
-    img{
-      margin: 0 0;
-      width: 100px;
-      height: 100px;
-      align-items: center;
-      display: block;
-    }
+  .about-items img {
+    margin: 0 7rem;
   }
 
+  .about-title {
+    transform: scale(0.9);
+  }
+
+  .txt {
+    margin-bottom: 1rem;
+  }
 }
-
