@@ -363,5 +363,6 @@ img {
 
   .contents {
     max-width: 90%;
+    transform: scale(0.9);
   }
 }
