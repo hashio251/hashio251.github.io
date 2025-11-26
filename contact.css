@@ -275,7 +275,7 @@ h2 {
   color: #4d5047;
 }
 
-h3{
+h3 {
   font-size: 2.5rem;
   color: #e5e5e5;
   background: none;
@@ -287,7 +287,7 @@ h3{
   text-align: center;
 }
 
-.myprofile{
+.myprofile {
   width: 100%;
   padding: 2rem;
   background-image: url(icon.jpeg);
@@ -312,11 +312,11 @@ h3{
   background: none;
 }
 
-.me-info img{
-    width: 24px;
-    height: 24px;
-      background: none;
-  }
+.me-info img {
+  width: 24px;
+  height: 24px;
+  background: none;
+}
 
 
 .social-link {
@@ -336,19 +336,21 @@ h3{
   align-items: center;
   gap: 1rem;
   margin: 2rem 0 3rem;
-  flex-wrap: nowrap; /* 折り返し禁止 */
+  flex-wrap: nowrap;
+  /* 折り返し禁止 */
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   background: none;
 }
 
-.track{
+.track {
   background: none;
 }
+
 .ra-men-img {
   flex: 0 1 auto;
-  width: clamp(100px, 20vw, 160px); 
+  width: clamp(100px, 20vw, 160px);
   aspect-ratio: 3/4;
   object-fit: cover;
   border-radius: 6px;
@@ -386,9 +388,9 @@ textarea {
 
 .contact-sec input:focus,
 textarea:focus {
-outline: none;
+  outline: none;
   border-color: #8fb67a;
-  box-shadow: 0 0 0 4px rgba(143,182,122,0.12);
+  box-shadow: 0 0 0 4px rgba(143, 182, 122, 0.12);
 }
 
 button {
@@ -402,7 +404,7 @@ button {
   color: #e5e5e5;
 }
 
-button:hover{
+button:hover {
   background-color: #373931;
 }
 
@@ -426,12 +428,12 @@ footer {
     height: 1px;
   }
 
-    h1 {
+  h1 {
     width: 12rem;
     font-size: 3rem;
   }
 
-  h2{
+  h2 {
     font-size: 2rem;
   }
 
