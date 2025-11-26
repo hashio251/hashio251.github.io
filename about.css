@@ -241,7 +241,9 @@ h1 {
 
 /* ここからメイン */
 main {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow-x: hidden;
 }
 
@@ -283,32 +285,90 @@ h1 {
 
 .about-items {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-items .about-txt {
-  margin-left: 10rem;
-}
-
-.about-items img {
-  width: 45%;
-  height: 50vh;
-  margin: 8rem;
+.powerpoint {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 6rem;
   object-fit: cover;
-  opacity: 0.8;
 }
 
-.about-title {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #4d5047;
-}
-
-.txt {
-  margin-bottom: 2rem;
-  text-align: right;
+.click-txt {
+  margin-bottom: 7rem;
   font-size: 1.5rem;
+  color: #4d5047;
+  display: inline-block;
+  /* transformを効かせるため */
+  white-space: nowrap;
+  /* 改行しない */
+  animation: slide-right 3s ease-in-out infinite;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(30%);
+  }
+
+  50% {
+    transform: translateX(40%);
+    /* 右へ移動 */
+  }
+
+  100% {
+    transform: translateX(30%);
+    /* 左に戻る */
+  }
+}
+
+.powerpoint img {
+  width: 100%;
+  height: 30vh;
+  margin: 6rem 0;
+  object-fit: cover;
+  box-shadow: 0 0 2px #44473f;
+  border-radius: 2%;
+  opacity: 0.6;
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+
+.powerpoint img:hover {
+  transform: scale(1.05);
+}
+
+.about-txt {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem 1rem;
+  font-size: 1.3rem;
+  color: #44473f;
+}
+
+dt {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-txt li {
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-txt li::before {
+  content: "▶︎";
+  margin-right: 0.5rem;
+  color: #515D40;
+}
+
+dd {
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #4d5047;
 }
 
@@ -339,18 +399,41 @@ h1 {
   }
 
   .about-items {
-    transform: scale(0.65);
+    transform: scale(0.85);
   }
 
-  .about-items img {
-    margin: 0 7rem;
+  .powerpoint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
   }
 
-  .about-title {
-    transform: scale(0.9);
+  .powerpoint img {
+    margin: 0;
+    height: auto;
+    display: flex;
+    transform: scale(0.85);
   }
 
-  .txt {
+  .click-txt {
+    margin: 0;
+    font-size: 1rem;
+    align-self: flex-start;
+  }
+
+  .about-txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .about-txt dt {
+    margin-bottom: 0.3rem;
+  }
+
+  .about-txt dd {
     margin-bottom: 1rem;
   }
+
 }
