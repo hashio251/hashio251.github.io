@@ -51,12 +51,12 @@ python3 -m http.server 8000
 ```
 
 ## 公開（GitHub Pages）について
-▽ポートフォリオサイト（このサイト）
-https://hashio251.github.io/
-▽学校の授業アートシンキングの発表用に制作
-https://hashio251.github.io/THIS-IS-ME-PROJECT-art-thinking-/
-▽学校の授業アートシンキングの発表用に制作
-https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
+- ▽ポートフォリオサイト（このサイト）
+  - https://hashio251.github.io/
+- ▽学校の授業アートシンキングの発表用に制作
+  - https://hashio251.github.io/THIS-IS-ME-PROJECT-art-thinking-/
+- ▽学校の授業アートシンキングの発表用に制作
+  - https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
 
 
 ## 使用技術・ツール
@@ -74,8 +74,8 @@ https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
 CC
 
 ## 追記
-▽figma
-https://www.figma.com/files/team/1506154230412128861/project/505500013?fuid=1506154228568569535
+- ▽figma
+  - https://www.figma.com/files/team/1506154230412128861/project/505500013?fuid=1506154228568569535
 
 ---
 
