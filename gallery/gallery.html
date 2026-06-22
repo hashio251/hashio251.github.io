@@ -5,10 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my portfolio gallery</title>
+  <link rel="stylesheet" href="../assets/slick-1.8.1/slick/slick.css">
+<link rel="stylesheet" href="../assets/slick-1.8.1/slick/slick-theme.css">
   <link rel="stylesheet" href="../assets/css/gallery.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../assets/slick-1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="../assets/css/gallery.css"/>
 </head>
 
 
@@ -42,14 +46,7 @@
 
     <div class="image-slider">
       <div class="image-scroll-container">
-        <ul class="scroll-container">
-          <li class="scroll-item"><img src="../assets/images/gallery/gallery1.png" alt="hashioの画像"></li>
-          <li class="scroll-item"><img src="../assets/images/gallery/gallery2.png" alt="hashioの画像"></li>
-          <li class="scroll-item"><img src="../assets/images/gallery/gallery3.png" alt="hashioの画像"></li>
-          <li class="scroll-item"><img src="../assets/images/gallery/gallery4.png" alt="hashioの画像"></li>
-          <li class="scroll-item"><img src="../assets/images/gallery/gallery5.png" alt="hashioの画像"></li>
-          <li class="scroll-item"><img src="../assets/images/gallery/gallery6.png" alt="hashioの画像"></li>
-          <li class="scroll-item"><img src="../assets/images/gallery/gallery7.png" alt="hashioの画像"></li>
+        <ul class="scroll-container autoplay">
           <li class="scroll-item"><img src="../assets/images/gallery/gallery1.png" alt="hashioの画像"></li>
           <li class="scroll-item"><img src="../assets/images/gallery/gallery2.png" alt="hashioの画像"></li>
           <li class="scroll-item"><img src="../assets/images/gallery/gallery3.png" alt="hashioの画像"></li>
@@ -81,6 +78,17 @@
     </div>
 
   </main>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="../assets/slick-1.8.1/slick/slick.min.js"></script>
+<script>
+  $('.autoplay').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+</script>
 
 </body>
 

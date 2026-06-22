@@ -277,21 +277,21 @@ h1 {
   margin: 5rem 2rem;
 }
 
-.image-scroll-container {
+/* .image-scroll-container {
   height: 40vh;
   display: flex;
   align-items: center;
   background-color: #515D40;
   padding: 2rem 0;
-}
+} */
 
 .scroll-container {
   display: flex;
   list-style: none;
-  animation: infinity-scroll-left 40s infinite linear 0.5s both;
+  /* animation: infinity-scroll-left 40s infinite linear 0.5s both; */
 }
 
-@keyframes infinity-scroll-left {
+/* @keyframes infinity-scroll-left {
   from {
     transform: translateX(0);
   }
@@ -299,12 +299,12 @@ h1 {
   to {
     transform: translateX(-50%);
   }
-}
+} */
 
 .scroll-item {
   display: flex;
   align-items: center;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
 }
 
 .scroll-item img {
