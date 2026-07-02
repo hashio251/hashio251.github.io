@@ -398,3 +398,9 @@ h2 {
   width: 90%;
   margin: 3em 2em;
 }
+
+
+/* 2026-07-01 add */
+.slick-dotted.slick-slider {
+    margin: 0 3em;
+}
