@@ -401,6 +401,16 @@ h2 {
 
 
 /* 2026-07-01 add */
+.slick-list {
+  margin: 0 auto;
+}
+
+.slick-track {
+  display: flex !important;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .slick-dotted.slick-slider {
     margin: 0 3em;
 }
