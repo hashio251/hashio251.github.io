@@ -784,11 +784,13 @@ button:hover {
   /* top page */
   /* top page */
   /* top page */
-  h1 {
-    font-size: 3rem;
-    left: 10%;
-    top: 50%;
-  }
+  #top-main {
+    & h1 {
+        font-size: 3rem;
+        left: 10%;
+        top: 50%;
+    }
+}
   
 
 
