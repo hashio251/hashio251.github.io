@@ -373,6 +373,12 @@ main#top-main::before {
 /* about page */
 /* about page */
 /* about page */
+.outer-menu-about .hamburger {
+  background-color: #9aac67;
+}
+.outer-menu-about .hamburger>div {
+  background: #515D40;
+}
 .about-header-img-1,
 .about-header-img-2,
 .about-header-img-3 {
