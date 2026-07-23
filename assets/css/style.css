@@ -779,7 +779,11 @@ button:hover {
 /* common setting */
 /* common setting */
 /* common setting */
-@media(max-width: 600px) {
+@media(max-width: 991px) {
+}
+@media(max-width: 769px) {
+}
+@media(max-width: 575px) {
   .outer-menu .hamburger {
     width: 40px;
     height: 40px;
@@ -805,7 +809,11 @@ button:hover {
 /* top page */
 /* top page */
 /* top page */
-@media(max-width: 600px) {
+@media(max-width: 991px) {
+}
+@media(max-width: 769px) {
+}
+@media(max-width: 575px) {
   #top-main {
     & h1 {
       font-size: 3rem;
@@ -820,8 +828,11 @@ button:hover {
 /* about page */
 /* about page */
 /* about page */
-@media(max-width: 600px) {
-
+@media(max-width: 991px) {
+}
+@media(max-width: 769px) {
+}
+@media(max-width: 575px) {
   .img-1,
   .img-2,
   .img-3 {
@@ -872,7 +883,11 @@ button:hover {
 /* works page */
 /* works page */
 
-@media(max-width: 600px) {
+@media(max-width: 991px) {
+}
+@media(max-width: 769px) {
+}
+@media(max-width: 575px) {
   h2 {
     margin: 0 auto;
     left: 20%
@@ -908,7 +923,11 @@ button:hover {
 /* works2 page */
 /* works2 page */
 
-@media(max-width: 600px) {
+@media(max-width: 991px) {
+}
+@media(max-width: 769px) {
+}
+@media(max-width: 575px) {
   .image-seen {
     max-width: 90%;
   }
