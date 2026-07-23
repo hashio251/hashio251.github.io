@@ -12,6 +12,35 @@
 /* common settings */
 /* common settings */
 /* common settings */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #b5d287;
+  box-sizing: border-box;
+  font-family: Zeyada;
+  font-weight: 200;
+
+}
+
+html {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -70,42 +99,6 @@ footer {
 /* navigation menu setting */
 /* navigation menu setting */
 /* navigation menu setting */
-
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #b5d287;
-  box-sizing: border-box;
-  font-family: Zeyada;
-  font-weight: 200;
-
-}
-
-html {
-  font-size: 16px;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-stretch: normal;
-  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 a,
 a:visited,
 a:hover,
@@ -305,6 +298,25 @@ a:active {
   background: var(--h3-col);
   transition: width 0.4s ease;
 }
+
+/* submenu */
+ul.submenu {
+  color: lavenderblush;
+  font-size: medium;
+  margin-top: .3em;
+  list-style: tibetan;
+}
+
+.submenu>li>a {
+  margin-top: .3em;
+  transition: color 0.4s ease;
+}
+
+.submenu>li:hover>a {
+  color: var(--link-bg);
+  transition: color 0.4s ease;
+}
+
 
 
 /* ここからメイン */
