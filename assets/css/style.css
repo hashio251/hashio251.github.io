@@ -407,7 +407,7 @@ main#top-main::before {
   align-items: center;
 }
 
-.powerpoint {
+.about-powerpoint {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -415,7 +415,7 @@ main#top-main::before {
   object-fit: cover;
 }
 
-.click-txt {
+.about-click-txt {
   margin-bottom: 7rem;
   font-size: 1.5rem;
   color: var(--h2-col);
@@ -442,7 +442,7 @@ main#top-main::before {
   }
 }
 
-.powerpoint img {
+.about-powerpoint img {
   height: 30vh;
   margin: 6rem 0;
   box-shadow: 0 0 2px var(--shadow-col);
@@ -452,11 +452,11 @@ main#top-main::before {
   transition: all 0.5s ease;
 }
 
-.powerpoint img:hover {
+.about-powerpoint img:hover {
   transform: scale(1.01);
 }
 
-.about-txt {
+.about-dl {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -465,11 +465,11 @@ main#top-main::before {
   color: var(--shadow-col);
 }
 
-.about-txt li {
+.about-dl li {
   list-style: none;
 }
 
-.about-txt li::before {
+.about-dl li::before {
   content: "▶︎";
   margin-right: 0.5rem;
   color: var(--li-col);
@@ -859,14 +859,14 @@ button:hover {
     transform: scale(0.85);
   }
 
-  .powerpoint {
+  .about-powerpoint {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     gap: 1rem;
   }
 
-  .powerpoint img {
+  .about-powerpoint img {
     margin: 0;
     width: 100%;
     height: auto;
@@ -874,23 +874,23 @@ button:hover {
     transform: scale(0.85);
   }
 
-  .click-txt {
+  .about-click-txt {
     margin: 0;
     font-size: 1rem;
     align-self: flex-start;
   }
 
-  .about-txt {
+  .about-dl {
     display: flex;
     flex-direction: column;
     margin: 2em 2em 0 2em;
   }
 
-  .about-txt dt {
+  .about-dl dt {
     margin-bottom: 0.3rem;
   }
 
-  .about-txt dd {
+  .about-dl dd {
     margin-bottom: 1rem;
   }
 
