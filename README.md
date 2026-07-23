@@ -54,10 +54,12 @@ python3 -m http.server 8000
 ## 公開（GitHub Pages）について
 - ▽ポートフォリオサイト（このサイト）
   - https://hashio251.github.io/
-- ▽学校の授業アートシンキングの発表用に制作
+- ▽学校の授業アートシンキングの発表用に制作（私について）
   - https://hashio251.github.io/THIS-IS-ME-PROJECT-art-thinking-/
-- ▽学校の授業アートシンキングの発表用に制作
+- ▽学校の授業アートシンキングの発表用に制作（１０年後のZOZOTOWNの未来予測について）
   - https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
+- ▽友人のネイルサロンサイト制作
+	- https://hashio251.github.io/01_website_nailsalon/
 
 
 ## 使用技術・ツール
