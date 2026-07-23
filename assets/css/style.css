@@ -35,11 +35,11 @@ h1 {
   text-align: center;
   width: 23rem;
   margin: 6rem auto;
-  border-bottom: 1px solid #4d5047;
+  border-bottom: 1px solid var(--h2-col);
   line-height: 50%;
   font-size: 5rem;
   font-family: Zeyada;
-  color: #2b2d28;
+  color: var(--h1-col);
   transform: skewX(-0.05turn);
   flex-shrink: 0;
 }
@@ -48,19 +48,19 @@ h2 {
   margin: 2rem 0;
   text-align: center;
   font-size: 3rem;
-  color: #4d5047;
+  color: var(--h2-col);
 }
 
 h3 {
   font-size: 2.5rem;
-  color: #e5e5e5;
+  color: var(--h3-col);
 }
 
 
 footer {
   margin: 6rem 0 2rem 0;
   text-align: center;
-  color: #2b2d28;
+  color: var(--h1-col);
 }
 
 
@@ -189,7 +189,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #515D40;
+  background-color: var(--li-col);
 }
 
 .outer-menu .hamburger>div {
@@ -197,7 +197,7 @@ h1 {
   flex: none;
   width: 100%;
   height: 2px;
-  background: #e5e5e5;
+  background: var(--h3-col);
   transition: all 0.4s ease;
   display: flex;
   align-items: center;
@@ -306,7 +306,7 @@ h1 {
   left: 0;
   width: 0;
   height: 2px;
-  background: #e5e5e5;
+  background: var(--h3-col);
   transition: width 0.4s ease;
 }
 
@@ -352,7 +352,7 @@ h1 {
   background: none;
   opacity: 0.6;
   font-family: Zeyada;
-  color: #2b2d28;
+  color: var(--h1-col);
 }
 
 
@@ -400,7 +400,7 @@ h1 {
 .click-txt {
   margin-bottom: 7rem;
   font-size: 1.5rem;
-  color: #4d5047;
+  color: var(--h2-col);
   display: inline-block;
   /* transformを効かせるため */
   white-space: nowrap;
@@ -427,7 +427,7 @@ h1 {
 .powerpoint img {
   height: 30vh;
   margin: 6rem 0;
-  box-shadow: 0 0 2px #44473f;
+  box-shadow: 0 0 2px var(--shadow-col);
   border-radius: 2%;
   opacity: 0.6;
   transform: scale(0.95);
@@ -444,7 +444,7 @@ h1 {
   grid-template-columns: 1fr 1.5fr;
   gap: 1rem 1rem;
   font-size: 1.3rem;
-  color: #44473f;
+  color: var(--shadow-col);
 }
 
 .about-txt li {
@@ -454,13 +454,13 @@ h1 {
 .about-txt li::before {
   content: "▶︎";
   margin-right: 0.5rem;
-  color: #515D40;
+  color: var(--li-col);
 }
 
 dd {
   margin-bottom: 2rem;
   font-size: 0.8rem;
-  color: #4d5047;
+  color: var(--h2-col);
 }
 
 
@@ -496,7 +496,7 @@ h2 {
 
 img {
   aspect-ratio: 11/7;
-  box-shadow: 0 0 2px #44473f;
+  box-shadow: 0 0 2px var(--shadow-col);
   border-radius: 2%;
   transition: all 0.4s ease;
 }
@@ -513,14 +513,14 @@ img:hover {
   border-radius: 1px;
   text-decoration: none;
   color: #fff !important;
-  background-color: #656565;
+  background-color: var(--link-bg);
   opacity: 0.6;
   cursor: alias;
   min-width: 380px;
 }
 
 .link-2:hover {
-  background-color: #b22222;
+  background-color: var(--link-hover);
 }
 
 
@@ -540,7 +540,7 @@ img:hover {
   height: 40vh;
   display: flex;
   align-items: center;
-  background-color: #515D40;
+  background-color: var(--li-col);
   padding: 2rem 0;
 } */
 
@@ -563,7 +563,7 @@ img:hover {
 .scroll-item {
   display: flex;
   align-items: center;
-  /* background-color: #e5e5e5; */
+  /* background-color: var(--h3-col); */
 }
 
 .scroll-item img {
@@ -587,7 +587,7 @@ img:hover {
   max-width: 600px;
   cursor: pointer;
   border-radius: 2px;
-  box-shadow: 0 0 2px #44473f;
+  box-shadow: 0 0 2px var(--shadow-col);
   opacity: 0.9;
   transition: all 0.3s ease;
 }
@@ -603,7 +603,7 @@ img:hover {
   justify-content: flex-start;
   text-align: left;
   font-size: 1.5rem;
-  color: #515D40;
+  color: var(--li-col);
 }
 
 
@@ -736,7 +736,7 @@ button {
   background-color: #616459;
   border: 2px solid #c3c9b2;
   border-radius: 3px;
-  color: #e5e5e5;
+  color: var(--h3-col);
 }
 
 button:hover {
