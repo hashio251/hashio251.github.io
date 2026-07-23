@@ -368,24 +368,24 @@ main#top-main::before {
 /* about page */
 /* about page */
 /* about page */
-.img-1,
-.img-2,
-.img-3 {
+.about-header-img-1,
+.about-header-img-2,
+.about-header-img-3 {
   display: block;
   object-fit: cover;
   height: 15vh;
   opacity: 0.6;
 }
 
-.img-1 {
+.about-header-img-1 {
   width: 100%;
 }
 
-.img-2 {
+.about-header-img-2 {
   width: 90%;
 }
 
-.img-3 {
+.about-header-img-3 {
   width: 80%;
 }
 
@@ -501,12 +501,12 @@ h2 {
   padding: 0 2rem 1rem 2rem;
 }
 
-img {
+/* img {
   aspect-ratio: 11/7;
   box-shadow: 0 0 2px var(--shadow-col);
   border-radius: 2%;
   transition: all 0.4s ease;
-}
+} */
 
 img:hover {
   transform: scale(1.05);
