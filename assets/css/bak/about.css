@@ -239,7 +239,7 @@ h1 {
   transition: width 0.4s ease;
 }
 
-/* about page */
+/* ここからメイン */
 main {
   display: flex;
   flex-direction: column;
