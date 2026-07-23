@@ -17,6 +17,7 @@ main {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  font-family: Zeyada;
   overflow-x: hidden;
 }
 
@@ -336,16 +337,21 @@ main#top-main::before {
 }
 
 #top-main {
-  &
-  h1 {
+  & h1 {
     font-size: 5rem;
+    background: none;
+    border: none;
     position: fixed;
     left: 20%;
     top: 50%;
-    background: none;
-    opacity: 0.6;
-    font-family: Zeyada;
     color: var(--h1-col);
+    opacity: 0.6;
+    line-height: 1.5;
+  }
+
+  & .top-title span {
+    display: block;
+    background: none;
   }
 }
 
