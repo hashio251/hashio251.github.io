@@ -359,15 +359,11 @@ main#top-main::before {
     opacity: 0.6;
     line-height: 1.5;
   }
-
   & .top-title span {
     display: block;
     background: none;
   }
 }
-
-
-
 
 /* about page */
 /* about page */
@@ -812,13 +808,22 @@ button:hover {
 @media(max-width: 991px) {
 }
 @media(max-width: 769px) {
+  #top-main {
+    & h1 {
+      font-size: 4rem;
+      left: 10%;
+      top: 50%;
+      line-height: 1.5;
+    }
+  }
 }
 @media(max-width: 575px) {
   #top-main {
     & h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       left: 10%;
       top: 50%;
+      line-height: 1.3;
     }
   }
 
