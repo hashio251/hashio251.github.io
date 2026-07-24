@@ -77,7 +77,6 @@ h1 {
 }
 
 h2 {
-  margin: 2rem 0;
   text-align: center;
   font-size: 3rem;
   color: var(--h2-col);
@@ -486,14 +485,24 @@ dd {
 /* works page */
 /* works page */
 /* works page */
-h2 {
-  position: relative;
-  left: 15%;
+.image-slider {
+
 }
 
+.works-item-inner {
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+.works-item-inner>h2 {
+  margin: 4rem 0 1rem;
+  border-bottom: 1px solid var(--link-hover);
+  width: fit-content;
+  line-height: .8;
+  padding: 0 5em 0 1em;
+}
 
 .collection {
-  margin: 0 5rem;
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
@@ -549,39 +558,19 @@ h2 {
 /* works2 page */
 /* 横スクロール */
 .image-slider {
-  width: 100%;
-  height: 50vh;
-  margin: 5rem 2rem;
+  height: 25vh;
+  margin: 0 5rem 10em;
 }
-
-/* .image-scroll-container {
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  background-color: var(--li-col);
-  padding: 2rem 0;
-} */
 
 .scroll-container {
   display: flex;
   list-style: none;
-  /* animation: infinity-scroll-left 40s infinite linear 0.5s both; */
+  animation: infinity-scroll-left 40s infinite linear 0.5s both;
 }
-
-/* @keyframes infinity-scroll-left {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
-  }
-} */
 
 .scroll-item {
   display: flex;
   align-items: center;
-  /* background-color: var(--h3-col); */
 }
 
 .scroll-item img {
@@ -598,6 +587,10 @@ h2 {
   align-items: center;
   background-position: cover;
   max-width: fit-content;
+}
+
+.slick-dots {
+  bottom: -80px;
 }
 
 .img-2 {
