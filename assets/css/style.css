@@ -384,7 +384,7 @@ main#top-main::before {
 .about-header-img-3 {
   display: block;
   object-fit: cover;
-  height: 8vh;
+  height: 10vh;
   opacity: 0.6;
 }
 
@@ -852,7 +852,7 @@ button:hover {
   .img-1,
   .img-2,
   .img-3 {
-    height: 8vh;
+    height: 7vh;
   }
 
   .about-items {
