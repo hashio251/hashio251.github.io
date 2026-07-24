@@ -793,6 +793,7 @@ button:hover {
   }
 
   h1 {
+    margin: 4rem auto;
     width: 12rem;
     font-size: 3rem;
   }
@@ -894,11 +895,14 @@ button:hover {
 @media(max-width: 769px) {
 }
 @media(max-width: 575px) {
-  h2 {
-    margin: 0 auto;
-    left: 20%
-  }
+.works-item-inner>h2 {
+  padding: 0 3rem 0 1rem;
+}
 
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
 
   .link {
     font-size: 1rem;
@@ -906,21 +910,24 @@ button:hover {
     margin: 0 auto;
   }
 
+  .limk-2 {
+    min-width: 340px;
+  }
+
   .collection {
     flex-direction: column;
-    margin: 0 2rem;
-    max-width: 90%;
   }
 
   .collection>div {
-    margin: 0;
-    flex: 0 0 100%;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
   }
 
   .contents {
     margin: 0;
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 
 }
@@ -934,6 +941,15 @@ button:hover {
 @media(max-width: 769px) {
 }
 @media(max-width: 575px) {
+  .slick-dots {
+  bottom: -50px;
+}
+
+.scroll-item img {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
   .image-seen {
     max-width: 90%;
   }
@@ -944,10 +960,8 @@ button:hover {
 
   /* 2026-06-25 add */
   .image-slider {
-    width: 90%;
-    margin: 3em 2em;
+    margin-bottom: 6rem;
   }
-
 
   /* 2026-07-01 add */
   .slick-list {
