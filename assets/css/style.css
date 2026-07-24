@@ -379,7 +379,7 @@ main#top-main::before {
   background: #515D40;
 }
 
-h1#about-page {
+#about-page h1 {
     margin: 6rem auto 0 auto;
 }
 
