@@ -909,6 +909,11 @@ button:hover {
     justify-content: center;
   }
 
+  .works-spantag {
+    display: flex;
+    flex-direction: column;
+  }
+
   .link {
     font-size: 1rem;
     display: inline-block;
