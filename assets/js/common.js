@@ -1,3 +1,5 @@
+// add code for change slick setting
+
 $('.autoplay').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
