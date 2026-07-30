@@ -1,4 +1,6 @@
-// add code for change slick setting
+// ========================================
+// for change slick setting and customize
+// ========================================
 
 $('.autoplay').slick({
   slidesToShow: 3,
@@ -25,3 +27,9 @@ $('.autoplay').slick({
     }
   ]
 });
+
+
+
+// ========================================
+// original js code (vanilla js♪)
+// ========================================
