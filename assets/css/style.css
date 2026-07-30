@@ -383,6 +383,11 @@ main#top-main::before {
     margin: 6rem auto 0 auto;
 }
 
+.about-link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+
 .about-header-img-1,
 .about-header-img-2,
 .about-header-img-3 {
