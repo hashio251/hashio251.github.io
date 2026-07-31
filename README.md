@@ -10,7 +10,14 @@
 ╚════════════════════════════════════════════╝
 ```
 
-> A retro-inspired portfolio built from scratch.
+> **Designing Experiences, Not Just Websites.**
+
+デザイン・プログラミング・表現を組み合わせ、
+**「伝わる体験」を作ること**をテーマに制作しているポートフォリオです。
+
+🌐 **Live Site**
+
+https://hashio251.github.io/
 
 ---
 
@@ -25,10 +32,6 @@
 ▶ Contact
 ```
 
-🌐 **Live Site**
-
-https://hashio251.github.io/
-
 ---
 
 # 👤 PLAYER
@@ -39,61 +42,76 @@ https://hashio251.github.io/
 | Role     | Frontend Developer / Designer          |
 | School   | Programming Student                    |
 | Favorite | Pixel Art・Retro Design・Creative Coding |
-| Goal     | Create websites that people remember.  |
+| Motto    | Design the Experience                  |
+| Goal     | Create websites people remember.       |
 
 ---
 
 # 📖 STORY
 
-このポートフォリオは、学校で制作した作品や個人制作のWebサイト、デザイン作品をまとめた作品集です。
+このポートフォリオでは、個人制作のWebサイト・デザイン作品・フロントエンド制作物を掲載しています。
 
-作品を展示するだけではなく、
+掲載作品の中には、学校で取り組んだテーマをもとに制作したものもあります。
+
+しかし、**Webサイト自体は「授業で作るよう指示された成果物」ではありません。**
+
+私は「伝え方も作品の一部」だと考えています。
+
+例えばアートシンキングの授業では、多くの学生がPowerPointで発表する中、
+
+**「見るだけではなく、実際に触れながら体験できる方が作品の魅力は伝わる」**
+
+と考え、発表資料の代わりにWebサイトを制作しました。
+
+スライドではなくデモサイトとして作品を見せたり、世界観を演出したり、情報をインタラクティブに伝えたりすることで、発表そのものを一つの作品として設計しています。
+
+このポートフォリオは、
 
 * 技術の学習記録
 * デザイン制作
-* 実験的な実装
-* 新しい表現への挑戦
+* アイデアの可視化
+* 「伝え方」の研究
 
-を継続して追加していくことを目的としています。
+を継続してまとめていく場所でもあります。
 
 ---
 
 # 🎯 MAIN QUEST
 
-✔ 学校の授業作品を公開する
+✔ アイデアをWebという形で表現する
 
-✔ 制作したWebサイトをまとめる
+✔ 「説明」を「体験」に変える
 
-✔ デザイン作品を公開する
+✔ デザインとプログラミングを組み合わせる
 
-✔ 技術力の成長を記録する
+✔ 制作物と成長記録を残す
 
 ---
 
 # 🕹 PROJECT SELECT
 
-| Project               | Description            |
-| --------------------- | ---------------------- |
-| 🎨 Portfolio          | このポートフォリオサイト           |
-| 🧠 THIS IS ME PROJECT | アートシンキング授業作品           |
-| 🚀 FUTURE PROJECT     | 10年後のZOZOTOWNをテーマにした作品 |
-| 💅 Nail Salon         | ネイルサロンWebサイト制作         |
+| Project               | Description                 |
+| --------------------- | --------------------------- |
+| 🎨 Portfolio          | このポートフォリオサイト                |
+| 🧠 THIS IS ME PROJECT | アートシンキング発表サイト               |
+| 🚀 FUTURE PROJECT     | 「10年後のZOZOTOWN」をテーマにした提案サイト |
+| 💅 Nail Salon         | ネイルサロンWebサイト制作              |
 
-### Play Now
+## ▶ Play
 
-Portfolio
+### Portfolio
 
 https://hashio251.github.io/
 
-THIS IS ME PROJECT
+### THIS IS ME PROJECT
 
 https://hashio251.github.io/THIS-IS-ME-PROJECT-art-thinking-/
 
-FUTURE PROJECT
+### FUTURE PROJECT
 
 https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
 
-Nail Salon
+### Nail Salon
 
 https://hashio251.github.io/01_website_nailsalon/
 
@@ -114,11 +132,11 @@ jQuery        ███████░░░
 
 ```text
 Photoshop     ██████████
-Illustrator   ████████░░
+Illustrator   █████████░
 Figma         ████████░░
 ```
 
-## Learning
+## Currently Learning
 
 ```text
 Java          █████░░░░░
@@ -132,32 +150,35 @@ TypeScript    ██░░░░░░░░
 
 # 🛠 EQUIPMENT
 
-### Development
+## Frontend
 
 * HTML（テンプレート未使用・ゼロから実装）
 * CSS（テンプレート未使用・ゼロから実装）
 * JavaScript（テンプレート未使用・ゼロから実装）
 * jQuery
 
-### Design
+## Design
 
 * Photoshop
 
   * バナー制作
   * サムネイル制作
+  * 画像編集
 * Illustrator
 
   * Favicon制作
 * Figma
 
-  * デザイン・プロトタイプ制作
+  * UIデザイン
+  * レイアウト設計
+  * プロトタイプ制作
 
-### Tools
+## Tools
 
-* Visual Studio Code
 * Git
 * GitHub
 * GitHub Pages
+* Visual Studio Code
 
 ---
 
@@ -169,8 +190,8 @@ Portfolio
 ├── about/
 ├── frontend/
 │   ├── website/
-│   ├── collection/
-│   └── javascript/
+│   ├── javascript/
+│   └── collection/
 │
 ├── backend/
 │   ├── java/
@@ -184,7 +205,7 @@ Portfolio
 │   ├── css/
 │   ├── js/
 │   ├── images/
-│   ├── icons/
+│   ├── icon/
 │   ├── fonts/
 │   └── slick/
 │
@@ -196,42 +217,36 @@ Portfolio
 
 # 🧩 DEVELOPMENT POLICY
 
-このポートフォリオでは、**テンプレートや模写に頼らず、自分で設計・実装すること**を大切にしています。
+このポートフォリオでは、「自分で考え、自分で作ること」を大切にしています。
 
-### Original Works
+## Original Works
 
-✅ HTML・CSS・JavaScriptはゼロから実装
+* HTML・CSS・JavaScriptはテンプレートを使用せずゼロから実装
+* UI・レイアウトはオリジナルで設計
+* Photoshop・Illustratorで制作した素材を使用
+* Figmaで画面設計・レイアウト検討
+* 模写作品はオリジナル作品とは区別して掲載
 
-✅ UIデザインはオリジナル
+## External Resources
 
-✅ Photoshopで制作した画像を使用
+### Slick Slider
 
-✅ Illustratorで制作したFaviconを使用
+カルーセル表示に利用しています。
 
-✅ レイアウトはすべて自作
+### Hamburger Menu
 
----
-
-### External Resources
-
-#### Slick Slider
-
-カルーセル機能として利用しています。
-
-#### Hamburger Menu
-
-ハンバーガーメニューは公開されている実装例を参考にしています。
+公開されている実装例を参考にしています。
 
 ただし、
 
 * デザイン
-* 色
 * サイズ
+* 配色
 * アニメーション
-* 表示・非表示
-* サイト構成への組み込み
+* 表示・非表示の挙動
+* サイト構造への組み込み
 
-については自サイト向けに調整・改変しています。
+については、自サイト向けに調整・改変しています。
 
 ---
 
@@ -246,23 +261,35 @@ Minimal
 Dark
 ```
 
-### Fonts
+## Keywords
+
+* Pixel
+* Retro
+* Interactive
+* Minimal
+* Experience Design
+
+## Fonts
 
 * Zeyada
 * Noto Sans JP
 
 ---
 
-# 📝 QUEST LOG
+# 📚 QUEST LOG
 
-このサイトを制作して学んだこと。
+このポートフォリオを制作する中で学んだこと。
 
-* HTML・CSSによるレイアウト設計
-* JavaScriptによる動的表現
-* Git・GitHubを利用したバージョン管理
+### LEVEL UP
+
+* HTMLによるページ設計
+* CSSによるレイアウト・レスポンシブ対応
+* JavaScriptによるインタラクション
+* Git / GitHubによるバージョン管理
 * GitHub Pagesによる公開
 * Photoshop・Illustratorを利用した素材制作
 * FigmaによるUI設計
+* 「情報をどう伝えるか」を考えた設計・演出
 
 ---
 
@@ -275,9 +302,22 @@ Dark
 □ PHP作品追加
 □ Python作品追加
 □ APIを利用したWebアプリ制作
-□ UI/UX改善
+□ Three.js作品追加
+□ UI / UX改善
 □ アニメーション追加
 □ パフォーマンス改善
+```
+
+---
+
+# 💡 PHILOSOPHY
+
+```text
+Webサイトを作ることが目的ではなく、
+
+"伝わる体験をデザインすること"
+
+を目的に制作しています。
 ```
 
 ---
@@ -287,9 +327,11 @@ Dark
 ```text
 Player : Hashio
 
-Current Version : 1.0
+Version : 2.0
 
-Status : Developing...
+Status : Still Developing...
+
+Play Time : ∞
 ```
 
 ---
@@ -298,18 +340,20 @@ Status : Developing...
 
 このリポジトリはポートフォリオ作品として公開しています。
 
-ソースコード・画像・デザインの無断転載および再配布はご遠慮ください。
+ソースコード・画像・デザイン等の著作権は制作者に帰属します。
+
+ライブラリ等を除き、無断転載・再配布・商用利用はご遠慮ください。
 
 ---
 
 ```text
 ╔════════════════════════════════════════════╗
 ║                                            ║
-║          SAVE COMPLETE.                    ║
+║            SAVE COMPLETE.                  ║
 ║                                            ║
-║      Thank you for visiting!               ║
+║      Thanks for visiting my world.         ║
 ║                                            ║
-║             See you again :)               ║
+║          See you again :)                  ║
 ║                                            ║
 ╚════════════════════════════════════════════╝
 ```
