@@ -1,88 +1,315 @@
-# ポートフォリオサイト
+# 🎮 HASHIO PORTFOLIO
 
-このリポジトリは、学校の授業（アートシンキング等）で発表するために作ったWEBサイトやデザインの授業で作ったバナーだったり、バナー模写や、オリジナル作品を紹介しています。
-
-## アピールポイント
-- HTMLもCSSもすべて手書きで作成しています。AIは一切使用していません。
-
-## サイトの目的
-授業発表・作品展示用の静的なウェブサイトです。作品紹介、制作物へのリンク、スキルや経歴の提示を目的としています。
-
-## 各ページの説明
-- `index.html`
-	- トップページ（サイト入口）。ナビゲーションや主要な紹介を載せています。
-
-- `about.html`
-	- 自己紹介ページ。パワーポイントのリンクを掲載しており、自己紹介の記載をしています。
-
-- `production.html`
-	- これまで制作してきたHTMLファイルをまとめたページです。
-	- 各制作物はGitHubのリモートに接続されており（GitHub Pages等で公開可能な状態）、クリックすると該当ページを閲覧できます。
-
-- `gallery.html`
-	- ギャラリーページ。以下を配置しています：
-		- JS5のリンク（※参考リンクやデモ）
-		- Figmaのデザインリンク（プロトタイプ・デザイン参照用）
-		- Photoshopで制作したPNG画像などの作品
-		- Illustratorで制作した作品
-
-- `contact.html`
-	- 連絡先ページ（メールやSNSのリンクなど、公開したい連絡手段を掲載しています）。
-
-## ディレクトリ / ファイル構成（抜粋）
-- `index.html`
-- `about.html`
-- `gallery.html`
-- `production.html`
-- `contact.html`
-- `style.css` / `about.css` / `gallery.css` / `contact.css` / `production.css`
-- `photoshop/`, `ps/` — 制作に使った素材や元ファイル（PSDやPNGなど）
-
-（実際の構成はプロジェクトルートを参照してください。）
-
-## バックエンド作品について（ローカルでの確認方法）
-1. リポジトリをローカルにクローンまたはダウンロードします。
-2. プロジェクトのルートに移動して、ブラウザで `index.html` を直接開くか、簡易サーバーで確認します。
-
-簡易サーバー（Python 3 の場合）:
-
-```
-python3 -m http.server 8000
-# ブラウザで http://localhost:8000 を開く
+```text
+╔════════════════════════════════════════════╗
+║                                            ║
+║          H A S H I O   P O R T F O L I O   ║
+║                                            ║
+║              >>> PRESS START <<<           ║
+║                                            ║
+╚════════════════════════════════════════════╝
 ```
 
-## 公開（GitHub Pages）について
-- ▽ポートフォリオサイト（このサイト）
-  - https://hashio251.github.io/
-- ▽学校の授業アートシンキングの発表用に制作（私について）
-  - https://hashio251.github.io/THIS-IS-ME-PROJECT-art-thinking-/
-- ▽学校の授業アートシンキングの発表用に制作（１０年後のZOZOTOWNの未来予測について）
-  - https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
-- ▽友人のネイルサロンサイト制作
-	- https://hashio251.github.io/01_website_nailsalon/
-
-
-## 使用技術・ツール
-- HTML（手書き）
-- CSS（手書き）
-- JS(手書き)・Jquery
-- Photoshop（画像制作・編集）
-- Figma（デザイン参照・プロトタイプ）
-
-## 制作メモ／学び
-- コーディングはすべて手書きで行ったため、マークアップとスタイリングの基本から実践的に学びました。
-- `production.html` では過去の作品を実際に公開できる形でまとめ、デプロイの仕組み（GitHubとPages連携）についても学びました。
-- ハンバーガーメニューについては、インターネット上にあるサンプル（公開されている実装例）を参考にし、サイトのデザインに合わせて見た目や挙動を自分で改変して使用しています。具体的には色・サイズ・アニメーションの調整や、表示/非表示のトリガー処理を自サイトの構造に合わせて書き換えています。
-
-## ライセンス
-CC
-
-## 追記
-- ▽figma
-  - https://www.figma.com/files/team/1506154230412128861/project/505500013?fuid=1506154228568569535
+> A retro-inspired portfolio built from scratch.
 
 ---
 
-制作: `hashio251`
+# 🌍 WORLD MAP
 
-# hashio251
+```text
+▶ Home
+▶ About
+▶ Frontend
+▶ Backend
+▶ Gallery
+▶ Contact
+```
+
+🌐 **Live Site**
+
+https://hashio251.github.io/
+
+---
+
+# 👤 PLAYER
+
+|          |                                        |
+| -------- | -------------------------------------- |
+| Name     | Hashio                                 |
+| Role     | Frontend Developer / Designer          |
+| School   | Programming Student                    |
+| Favorite | Pixel Art・Retro Design・Creative Coding |
+| Goal     | Create websites that people remember.  |
+
+---
+
+# 📖 STORY
+
+このポートフォリオは、学校で制作した作品や個人制作のWebサイト、デザイン作品をまとめた作品集です。
+
+作品を展示するだけではなく、
+
+* 技術の学習記録
+* デザイン制作
+* 実験的な実装
+* 新しい表現への挑戦
+
+を継続して追加していくことを目的としています。
+
+---
+
+# 🎯 MAIN QUEST
+
+✔ 学校の授業作品を公開する
+
+✔ 制作したWebサイトをまとめる
+
+✔ デザイン作品を公開する
+
+✔ 技術力の成長を記録する
+
+---
+
+# 🕹 PROJECT SELECT
+
+| Project               | Description            |
+| --------------------- | ---------------------- |
+| 🎨 Portfolio          | このポートフォリオサイト           |
+| 🧠 THIS IS ME PROJECT | アートシンキング授業作品           |
+| 🚀 FUTURE PROJECT     | 10年後のZOZOTOWNをテーマにした作品 |
+| 💅 Nail Salon         | ネイルサロンWebサイト制作         |
+
+### Play Now
+
+Portfolio
+
+https://hashio251.github.io/
+
+THIS IS ME PROJECT
+
+https://hashio251.github.io/THIS-IS-ME-PROJECT-art-thinking-/
+
+FUTURE PROJECT
+
+https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
+
+Nail Salon
+
+https://hashio251.github.io/01_website_nailsalon/
+
+---
+
+# ⚔ PLAYER STATUS
+
+## Frontend
+
+```text
+HTML          ██████████
+CSS           ██████████
+JavaScript    █████████░
+jQuery        ███████░░░
+```
+
+## Design
+
+```text
+Photoshop     ██████████
+Illustrator   ████████░░
+Figma         ████████░░
+```
+
+## Learning
+
+```text
+Java          █████░░░░░
+PHP           ███░░░░░░░
+Python        ███░░░░░░░
+React         ███░░░░░░░
+TypeScript    ██░░░░░░░░
+```
+
+---
+
+# 🛠 EQUIPMENT
+
+### Development
+
+* HTML（テンプレート未使用・ゼロから実装）
+* CSS（テンプレート未使用・ゼロから実装）
+* JavaScript（テンプレート未使用・ゼロから実装）
+* jQuery
+
+### Design
+
+* Photoshop
+
+  * バナー制作
+  * サムネイル制作
+* Illustrator
+
+  * Favicon制作
+* Figma
+
+  * デザイン・プロトタイプ制作
+
+### Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+* GitHub Pages
+
+---
+
+# 📂 WORLD DATA
+
+```text
+Portfolio
+│
+├── about/
+├── frontend/
+│   ├── website/
+│   ├── collection/
+│   └── javascript/
+│
+├── backend/
+│   ├── java/
+│   ├── php/
+│   └── python/
+│
+├── gallery/
+├── contact/
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   ├── icons/
+│   ├── fonts/
+│   └── slick/
+│
+├── index.html
+└── README.md
+```
+
+---
+
+# 🧩 DEVELOPMENT POLICY
+
+このポートフォリオでは、**テンプレートや模写に頼らず、自分で設計・実装すること**を大切にしています。
+
+### Original Works
+
+✅ HTML・CSS・JavaScriptはゼロから実装
+
+✅ UIデザインはオリジナル
+
+✅ Photoshopで制作した画像を使用
+
+✅ Illustratorで制作したFaviconを使用
+
+✅ レイアウトはすべて自作
+
+---
+
+### External Resources
+
+#### Slick Slider
+
+カルーセル機能として利用しています。
+
+#### Hamburger Menu
+
+ハンバーガーメニューは公開されている実装例を参考にしています。
+
+ただし、
+
+* デザイン
+* 色
+* サイズ
+* アニメーション
+* 表示・非表示
+* サイト構成への組み込み
+
+については自サイト向けに調整・改変しています。
+
+---
+
+# 🎨 DESIGN CONCEPT
+
+```text
+Theme
+
+Pixel
+Retro
+Minimal
+Dark
+```
+
+### Fonts
+
+* Zeyada
+* Noto Sans JP
+
+---
+
+# 📝 QUEST LOG
+
+このサイトを制作して学んだこと。
+
+* HTML・CSSによるレイアウト設計
+* JavaScriptによる動的表現
+* Git・GitHubを利用したバージョン管理
+* GitHub Pagesによる公開
+* Photoshop・Illustratorを利用した素材制作
+* FigmaによるUI設計
+
+---
+
+# 🚀 NEXT UPDATE
+
+```text
+□ React作品追加
+□ TypeScript作品追加
+□ Java作品追加
+□ PHP作品追加
+□ Python作品追加
+□ APIを利用したWebアプリ制作
+□ UI/UX改善
+□ アニメーション追加
+□ パフォーマンス改善
+```
+
+---
+
+# 💾 SAVE DATA
+
+```text
+Player : Hashio
+
+Current Version : 1.0
+
+Status : Developing...
+```
+
+---
+
+# 📜 LICENSE
+
+このリポジトリはポートフォリオ作品として公開しています。
+
+ソースコード・画像・デザインの無断転載および再配布はご遠慮ください。
+
+---
+
+```text
+╔════════════════════════════════════════════╗
+║                                            ║
+║          SAVE COMPLETE.                    ║
+║                                            ║
+║      Thank you for visiting!               ║
+║                                            ║
+║             See you again :)               ║
+║                                            ║
+╚════════════════════════════════════════════╝
+```
