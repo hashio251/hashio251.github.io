@@ -16,6 +16,7 @@
 **「伝わる体験」を作ること**をテーマに制作しているポートフォリオです。
 
 🌐 **Live Site**
+![Preview](./assets/images/production/portfolio.png)
 
 https://hashio251.github.io/
 
