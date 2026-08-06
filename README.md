@@ -1,6 +1,6 @@
 # HASHIO PORTFOLIO
 
-![Preview](./assets/images/production/portfolio.png)
+![Preview](./assets/images/frontend/website/portfolio.png)
 
 ```text
 ╔════════════════════════════════════════════╗
