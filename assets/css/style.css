@@ -579,9 +579,9 @@ dd {
 }
 
 .scroll-item img {
-  width: 37vw;
   height: 31vh;
   margin: 1rem;
+  padding: 2em;
 }
 
 .image-seen {
