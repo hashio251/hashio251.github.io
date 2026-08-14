@@ -106,11 +106,11 @@ https://hashio251.github.io/
 
 ### THIS IS ME PROJECT
 
-https://hashio251.github.io/THIS-IS-ME-PROJECT-art-thinking-/
+https://hashio251.github.io/01_website_presentation-artthinking-/
 
 ### FUTURE PROJECT
 
-https://hashio251.github.io/FUTURE-PROJECT-art-thinking-/
+https://hashio251.github.io/01_website_performance-artthinking-/
 
 ### Nail Salon
 
@@ -224,9 +224,9 @@ Portfolio
 
 * HTML・CSS・JavaScriptはテンプレートを使用せずゼロから実装
 * UI・レイアウトはオリジナルで設計
-* Photoshop・Illustratorで制作した素材を使用
+* Photoshop・Illustratorで制作した素材を使用（全てオリジナル画像）
 * Figmaで画面設計・レイアウト検討
-* 模写作品はオリジナル作品とは区別して掲載
+* AIによるコーディングはありません
 
 ## External Resources
 
