@@ -166,8 +166,8 @@ a:active {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 55px;
-  height: 55px;
+  width: 4.8em;
+  height: 4.8em;
   padding: 0.5em 1em;
   border-radius: 0 0.12em 0.12em 0;
   cursor: pointer;
