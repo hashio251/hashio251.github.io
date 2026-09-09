@@ -363,7 +363,7 @@ ul.submenu {
   top: 15em;
   right: 20em;
   background-color: transparent;
-  z-index: 1;
+  z-index: .1;
   &
   a, span {
     background-color: transparent;
