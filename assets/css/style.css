@@ -24,6 +24,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -336,38 +337,54 @@ ul.submenu {
 /* top page */
 /* top page */
 /* top page */
-main#top-main::before {
+.intro {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.intro::before {
   content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  inset: 0;
   background-image: url("../images/top/top-page.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.intro-inner {
+  position: relative;
+  top: 15em;
+  right: 20em;
+  background-color: transparent;
+  z-index: 1;
+  &
+  a, span {
+    background-color: transparent;
+  }
+}
+
+.top-title {
+  margin: 0;
+  font-size: 5rem;
+  line-height: 1.5;
+  color: var(--h1-col);
+  background: none;
+  border: none;
   opacity: 0.6;
 }
 
-#top-main {
-  & h1 {
-    font-size: 5rem;
-    background: none;
-    border: none;
-    position: fixed;
-    left: 20%;
-    top: 40%;
-    color: var(--h1-col);
-    opacity: 0.6;
-    line-height: 1.5;
-  }
-  & .top-title span {
-    display: block;
-    background: none;
-  }
+.top-title span {
+  display: block;
+  background: none;
 }
+
 
 /* about page */
 /* about page */
