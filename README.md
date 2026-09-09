@@ -191,11 +191,11 @@ Portfolio
 
 ## Original Works
 
-* HTML・CSS・JavaScriptはテンプレートを使用せずゼロから実装
+* HTML・CSS・JavaScriptはテンプレートを使用せずゼロから実装（※Frontendページのみ、jQueryのテンプレートを使用し、必要に応じて改変しています）
 * UI・レイアウトはオリジナルで設計
-* Photoshop・Illustratorで制作した素材を使用（全てオリジナル画像）
+* 全てオリジナル画像であり、Photoshop・Illustratorで制作した素材を使用（※ポートフォリオ以外の作品では、FrontendやBackendなど、生成AIを利用した作品もあります）
 * Figmaで画面設計・レイアウト検討
-* AIによるコーディングはありません
+* AIによるコーディングはありません（※ポートフォリオ以外の作品では、FrontendやBackendなど、生成AIを利用した作品もあります）
 
 ## External Resources
 
