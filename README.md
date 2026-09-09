@@ -118,37 +118,6 @@ https://hashio251.github.io/01_website_nailsalon/
 
 ---
 
-# ⚔ PLAYER STATUS
-
-## Frontend
-
-```text
-HTML          ██████████
-CSS           ██████████
-JavaScript    █████████░
-jQuery        ███████░░░
-```
-
-## Design
-
-```text
-Photoshop     ██████████
-Illustrator   █████████░
-Figma         ████████░░
-```
-
-## Currently Learning
-
-```text
-Java          █████░░░░░
-PHP           ███░░░░░░░
-Python        ███░░░░░░░
-React         ███░░░░░░░
-TypeScript    ██░░░░░░░░
-```
-
----
-
 # 🛠 EQUIPMENT
 
 ## Frontend
