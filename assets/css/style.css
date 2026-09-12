@@ -394,6 +394,16 @@ a.scroll-guide {
   background: none;
 }
 
+section#home {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+p .section-number {
+  font-size: 2em;
+}
+
+
 
 /* about page */
 /* about page */
