@@ -361,13 +361,22 @@ ul.submenu {
 .intro-inner {
   position: relative;
   top: 15em;
-  right: 20em;
+  right: 25em;
   background-color: transparent;
   z-index: .1;
   &
   a, span {
     background-color: transparent;
   }
+}
+
+.scroll-guide {
+  margin-top: ;
+}
+
+a.scroll-guide {
+  font-size: 1.5em;
+  padding: 4em;
 }
 
 .top-title {
