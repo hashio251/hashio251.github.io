@@ -395,15 +395,34 @@ a.scroll-guide {
 }
 
 section#home {
-  margin: 0 auto;
-  max-width: 1000px;
+  margin: 2em auto;
+  max-width: 1200px;
 }
 
-p .section-number {
-  font-size: 2em;
+h2.section-number {
+  font-size: 3em;
+  margin-top: 2em;
 }
 
+#home p {
+  font-size:  1.5em;
+}
 
+#home section:nth-child(odd) {
+  display: grid;
+  justify-content: left;
+}
+
+#home section:nth-child(even) {
+  display: grid;
+  justify-content: right;
+  background-color: var(--li-col);
+}
+
+article.news-item, article.work-item {
+  width: 30em;
+  border-top: 1px solid var(--h2-col);
+}
 
 /* about page */
 /* about page */
