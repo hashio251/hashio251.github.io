@@ -1084,3 +1084,23 @@ button:hover {
 .notfound-container {
   margin: 0 auto;
 }
+
+p.back-to-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  border: 1px solid var(--h2-col);
+  border-radius: 5px;
+  padding: .5em;
+  &
+  a {
+    background-color: transparent;
+  }
+}
+
+p.back-to-top:hover {
+  color: #ffffff;
+  background-color: var(--link-bg);
+  opacity: .7;
+}
