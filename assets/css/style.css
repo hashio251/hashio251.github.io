@@ -167,8 +167,8 @@ a:active {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 4.8em;
-  height: 4.8em;
+  width: 4.2em;
+  height: 4.2em;
   padding: 0.5em 1em;
   border-radius: 0 0.12em 0.12em 0;
   cursor: pointer;
@@ -833,6 +833,14 @@ button:hover {
   .outer-menu .hamburger>div:after {
     height: 1px;
   }
+
+  .outer-menu .hamburger>div:before {
+    top: -10px;
+}
+
+.outer-menu .hamburger>div:after {
+  top: 10px;
+}
 
   h1 {
     margin: 4rem auto;
