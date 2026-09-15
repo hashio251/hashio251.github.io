@@ -1117,3 +1117,65 @@ p.back-to-top:hover {
 p.back-to-top:hover a {
   color: #ffffff;
 }
+
+
+/* not found page　responsive */
+/* not found page　responsive */
+/* not found page　responsive */
+
+@media screen and (max-width: 768px) {
+
+  #notfound-main {
+    padding: 2em 1em;
+    overflow: hidden;
+  }
+
+  #notfound-main > .notfound-image-container {
+    position: relative;
+  }
+
+  #notfound-main > .notfound-image-container > img.notfound-img {
+    width: 70%;
+    display: block;
+    position: relative;
+    top: -5em;
+  }
+
+  #notfound-main > .notfound-image-container > img.notfound-sozai {
+    width: 35%;
+    top: 60%;
+    left: -3em;
+  }
+
+  #notfound-main > .notfound-image-container > img.notfound-sozai2 {
+    width: 35%;
+    top: -13em;
+    right: -1.5em;
+    transform: rotate(45deg);
+  }
+
+  .notfound-container {
+    width: 90%;
+    max-width: 100%;
+    margin: 2em auto 0;
+  }
+
+  .notfound-text {
+    margin-top: 1.5em;
+    font-size: .85em;
+    line-height: 1.8;
+  }
+
+  p.back-to-top {
+    width: 100%;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+  }
+
+  p.back-to-top a {
+    display: block;
+    width: 100%;
+    padding: .8em;
+    text-align: center;
+  }
+}
