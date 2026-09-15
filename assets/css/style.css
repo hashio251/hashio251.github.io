@@ -1048,3 +1048,39 @@ button:hover {
     height: 220px;
   }
 }
+
+
+
+/* 2026-09-15 add */
+
+/* not found page */
+/* not found page */
+/* not found page */
+/* #notfound-main {
+  background-image: url('../images/404/404_bg.png');
+} */
+
+#notfound-main > .notfound-image-container > img.notfound-img{
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+
+#notfound-main > .notfound-image-container > img.notfound-sozai{
+  width: 20%;
+  position: absolute;
+  top: 30em;
+  left: -3em;
+  transform: rotate(-90deg);
+}
+
+#notfound-main > .notfound-image-container > img.notfound-sozai2{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 3em;
+}
+
+.notfound-container {
+  margin: 0 auto;
+}
