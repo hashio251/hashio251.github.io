@@ -1056,25 +1056,31 @@ button:hover {
 /* not found page */
 /* not found page */
 /* not found page */
-/* #notfound-main {
-  background-image: url('../images/404/404_bg.png');
-} */
 
-#notfound-main > .notfound-image-container > img.notfound-img{
+#notfound-main {
+  position: relative;
+  overflow: hidden;
+}
+
+#notfound-main > .notfound-image-container {
+  position: relative;
+}
+
+#notfound-main > .notfound-image-container > img.notfound-img {
   width: 60%;
-  display: flex;
+  display: block;
   margin: 0 auto;
 }
 
-#notfound-main > .notfound-image-container > img.notfound-sozai{
+#notfound-main > .notfound-image-container > img.notfound-sozai {
   width: 20%;
   position: absolute;
-  top: 30em;
+  top: 30%;
   left: -3em;
   transform: rotate(-90deg);
 }
 
-#notfound-main > .notfound-image-container > img.notfound-sozai2{
+#notfound-main > .notfound-image-container > img.notfound-sozai2 {
   width: 20%;
   position: absolute;
   top: 0;
@@ -1082,6 +1088,8 @@ button:hover {
 }
 
 .notfound-container {
+  width: 90%;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -1092,15 +1100,20 @@ p.back-to-top {
   font-size: 1.5em;
   border: 1px solid var(--h2-col);
   border-radius: 5px;
+}
+
+p.back-to-top a {
+  width: 100%;
   padding: .5em;
-  &
-  a {
-    background-color: transparent;
-  }
+  text-align: center;
+  background-color: transparent;
 }
 
 p.back-to-top:hover {
-  color: #ffffff;
   background-color: var(--link-bg);
   opacity: .7;
+}
+
+p.back-to-top:hover a {
+  color: #ffffff;
 }
