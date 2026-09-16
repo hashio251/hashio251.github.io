@@ -910,6 +910,62 @@ button:hover {
 /* top page */
 /* top page */
 @media(max-width: 991px) {
+  .intro-inner {
+    top: 10em;
+    right: -3em;
+}
+section#home {
+  margin: 1em auto;
+  max-width: 700px;
+}
+h2.section-number {
+  font-size: 1.5em;
+  margin-top: .8em;
+}
+
+article.news-item, article.work-item {
+  width: 15em;
+  border-top: 1px solid var(--h2-col);
+}
+
+p.home-detail {
+  font-size: 2em;
+}
+
+time, p.home-works-number, p.myprofile-detail {
+  font-size: 1.3em;
+}
+
+h3.news-title, h3.project-title {
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-indent: 1em;
+  color: var(--li-col);
+}
+
+p.news-detail, p.project-use-language {
+  font-size: 1em;
+  text-indent: 3em;
+}
+
+a.link-to-project {
+  font-size: 1.2em;
+  text-decoration: underline;
+  line-height: 4em;
+}
+
+a.link-to {
+  font-size: 1.2em;
+  text-decoration: underline;
+  line-height: 2em;
+}
+
+nav.home-small-nav {
+  text-indent: 1em;
+  display: flex;
+  gap: 2em;
+}
+
 }
 @media(max-width: 769px) {
   #top-main {
