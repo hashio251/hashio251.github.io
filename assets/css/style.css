@@ -637,7 +637,7 @@ dd {
   background-color: var(--link-bg);
   opacity: 0.6;
   cursor: alias;
-  min-width: 380px;
+  min-width: 250px;
 }
 
 .link-2:hover {
