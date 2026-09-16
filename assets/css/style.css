@@ -397,15 +397,12 @@ a.scroll-guide {
 section#home {
   margin: 2em auto;
   max-width: 1200px;
+  min-width: 900px;
 }
 
 h2.section-number {
   font-size: 3em;
   margin-top: 2em;
-}
-
-#home p {
-  font-size:  1.5em;
 }
 
 #home section:nth-child(odd) {
@@ -416,12 +413,35 @@ h2.section-number {
 #home section:nth-child(even) {
   display: grid;
   justify-content: right;
-  background-color: var(--li-col);
 }
 
 article.news-item, article.work-item {
   width: 30em;
   border-top: 1px solid var(--h2-col);
+}
+
+p.home-detail {
+  font-size: 2em;
+}
+
+time, p.home-works-number {
+  font-size: 1.2em;
+}
+
+h3.news-title, h3.project-title {
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-indent: 1em;
+  color: var(--li-col);
+}
+
+p.news-detail, p.project-use-language {
+  font-size: 1em;
+  text-indent: 3em;
+}
+
+a.link-to-project {
+  text-decoration: underline;
 }
 
 /* about page */
