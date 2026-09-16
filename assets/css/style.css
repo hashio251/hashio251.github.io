@@ -1127,7 +1127,11 @@ button:hover {
     width: 100%;
     height: auto;
     display: flex;
-    transform: scale(0.85);
+    scale: .85;
+  }
+
+  .about-powerpoint img:hover {
+    transform: none;
   }
 
   .about-click-txt {
