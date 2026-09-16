@@ -424,8 +424,8 @@ p.home-detail {
   font-size: 2em;
 }
 
-time, p.home-works-number {
-  font-size: 1.2em;
+time, p.home-works-number, p.myprofile-detail {
+  font-size: 1.3em;
 }
 
 h3.news-title, h3.project-title {
@@ -441,7 +441,21 @@ p.news-detail, p.project-use-language {
 }
 
 a.link-to-project {
+  font-size: 1.2em;
   text-decoration: underline;
+  line-height: 4em;
+}
+
+a.link-to {
+  font-size: 1.2em;
+  text-decoration: underline;
+  line-height: 2em;
+}
+
+nav.home-small-nav {
+  text-indent: 1em;
+  display: flex;
+  gap: 2em;
 }
 
 /* about page */
