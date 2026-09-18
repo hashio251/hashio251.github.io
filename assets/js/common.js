@@ -33,3 +33,16 @@ $('.autoplay').slick({
 // ========================================
 // original js code (vanilla js♪)
 // ========================================
+const fadaUpElements = document.querySelectorAll('.fade-up');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-show');
+    }
+  })
+})
+
+fadaElements.forEach((element) => {
+  observer.observe(element);
+})

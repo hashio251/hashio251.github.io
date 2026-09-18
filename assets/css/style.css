@@ -42,6 +42,24 @@ html {
   src: url(https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
 }
 
+/* fade-up setting using js */
+/* fade-up setting using js */
+/* fade-up setting using js */
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.fade-up.is-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 main {
   display: flex;
   flex-direction: column;
