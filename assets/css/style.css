@@ -48,7 +48,7 @@ html {
 
 .fade-up {
   opacity: 0;
-  transform: translateY(40px);
+  transform: translateY(24px);
   transition:
     opacity 0.8s ease,
     transform 0.8s ease;
