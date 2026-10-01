@@ -88,7 +88,7 @@
       </div>
 
       <div class="contact-sec">
-        <form action="https://formsubmit.co/hashio.work@gmail.com" method="POST"><!-- 動かす場合はここにフォームプレスのID追加 -->
+        <form action="https://formsubmit.co/hashio.work@gmail.com" method="POST">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_next" value="https://hashio251.github.io/contact/thanks.html">
           <h2>Send a Message</h2>
@@ -105,7 +105,7 @@
           <div class="sns-cnt fade-up">
             <label for="phone">phone</label>
             <input type="tel" id="phone" name="phone" placeholder="080-1234-5678" required autocomplete="tel"
-              inputmode="numeric" pattern="^(0(?:70|80|90))\d{4}\d{4}$" title="070/080/090-1234-5678 の形式で入力してください">
+              inputmode="numeric" pattern="0(70|80|90)-?\d{4}-?\d{4}" title="070/080/090-1234-5678 の形式で入力してください">
           </div>
           <div class="sns-cnt fade-up">
             <label for="message">message</label>
