@@ -1,0 +1,45 @@
+/* base settings */
+/* base settings */
+/* base settings */
+
+
+:root {
+  --h1-col: #2b2d28;
+  --h2-col: #4d5047;
+  --h3-col: #e5e5e5;
+  --li-col: #515D40;
+  --link-bg: #656565;
+  --link-hover: #b22222;
+  --shadow-col: #44473f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #b5d287;
+  box-sizing: border-box;
+  font-family: Zeyada;
+  font-weight: 200;
+
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+

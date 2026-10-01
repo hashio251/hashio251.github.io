@@ -1,0 +1,76 @@
+/* layout setting */
+/* layout setting */
+/* layout setting */
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Zeyada;
+  overflow-x: hidden;
+}
+
+li,
+dt,
+dd {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  width: 23rem;
+  margin: 5rem auto;
+  border-bottom: 1px solid var(--h2-col);
+  line-height: 50%;
+  font-size: 5rem;
+  font-family: Zeyada;
+  color: var(--h1-col);
+  transform: skewX(-0.05turn);
+  flex-shrink: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--h2-col);
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: var(--h3-col);
+}
+
+
+footer {
+  margin: 6rem 0 2rem 0;
+  text-align: center;
+  color: var(--h1-col);
+}
+
+
+
+
+/* responsive */
+/* responsive */
+/* responsive */
+
+@media(max-width: 575px) {
+  h1 {
+    margin: 4rem auto;
+    width: 12rem;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}

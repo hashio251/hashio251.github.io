@@ -1,0 +1,182 @@
+/* about page */
+/* about page */
+/* about page */
+.outer-menu-about .hamburger {
+  background-color: #9aac67;
+}
+.outer-menu-about .hamburger>div {
+  background: #515D40;
+}
+
+#about-page h1 {
+    margin: 6rem auto 0 auto;
+}
+
+.about-link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.about-header-img-1,
+.about-header-img-2,
+.about-header-img-3 {
+  display: block;
+  object-fit: cover;
+  height: 10vh;
+  opacity: 0.6;
+}
+
+.about-header-img-1 {
+  width: 100%;
+}
+
+.about-header-img-2 {
+  width: 90%;
+}
+
+.about-header-img-3 {
+  width: 80%;
+}
+
+.about-img-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-powerpoint {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 6rem;
+  object-fit: cover;
+}
+
+.about-click-txt {
+  margin-bottom: 7rem;
+  font-size: 1.5rem;
+  color: var(--h2-col);
+  display: inline-block;
+  /* transformを効かせるため */
+  white-space: nowrap;
+  /* 改行しない */
+  animation: slide-right 3s ease-in-out infinite;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(30%);
+  }
+
+  50% {
+    transform: translateX(40%);
+    /* 右へ移動 */
+  }
+
+  100% {
+    transform: translateX(30%);
+    /* 左に戻る */
+  }
+}
+
+.about-powerpoint img {
+  height: 30vh;
+  margin: 6rem 0;
+  box-shadow: 0 0 2px var(--shadow-col);
+  border-radius: 2%;
+  opacity: 0.6;
+  transform: scale(0.97);
+  transition: all 0.5s ease;
+}
+
+.about-powerpoint img:hover {
+  transform: scale(1.01);
+}
+
+.about-dl {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem 1rem;
+  font-size: 1.3rem;
+  color: var(--shadow-col);
+}
+
+.about-dl li {
+  list-style: none;
+}
+
+.about-dl li::before {
+  content: "▶︎";
+  margin-right: 0.5rem;
+  color: var(--li-col);
+}
+
+dd {
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  color: var(--h2-col);
+}
+
+
+
+
+/* ここからレスポンシブ */
+/* ここからレスポンシブ */
+/* ここからレスポンシブ */
+@media(max-width: 991px) {
+}
+@media(max-width: 769px) {
+}
+@media(max-width: 575px) {
+  .img-1,
+  .img-2,
+  .img-3 {
+    height: 7vh;
+  }
+
+  .about-items {
+    transform: scale(0.85);
+  }
+
+  .about-powerpoint {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .about-powerpoint img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    scale: .85;
+  }
+
+  .about-powerpoint img:hover {
+    transform: none;
+  }
+
+  .about-click-txt {
+    margin: 0;
+    font-size: 1rem;
+    align-self: flex-start;
+  }
+
+  .about-dl {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 2em 0 2em;
+  }
+
+  .about-dl dt {
+    margin-bottom: 0.3rem;
+  }
+
+  .about-dl dd {
+    margin-bottom: 1rem;
+  }
+
+}
