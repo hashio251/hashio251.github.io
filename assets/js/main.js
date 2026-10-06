@@ -3,6 +3,9 @@
 // ========================================
 const fadeElements = document.querySelectorAll(".fade-up");
 
+// responsive用の変数
+const isMobile = window.innerWidth <= 769;
+
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -13,7 +16,7 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: .7
+    threshold: isMobile ? 0.15 : 0.7
   }
 );
 
