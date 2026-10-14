@@ -8,10 +8,11 @@
   place-items: center;
 }
 
-.spinner {
+.loading-spinner {
   width: 200px;
   height: 200px;
   animation: spin 1s linear infinite;
+  background: none;
 }
 
 @keyframes spin {
@@ -22,6 +23,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.loading-txt {
+  font-size: 2em;
+  background: none;
 }
 
 .loaded {
