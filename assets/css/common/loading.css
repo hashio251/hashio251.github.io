@@ -42,8 +42,14 @@
   font-size: 2em;
   text-align: center;
   padding-left: 1em;
+  animation: blinking 1s ease-in-out infinite alternate;
   background: none;
   opacity: .6;
+}
+
+@keyframes blinking {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .loaded {
