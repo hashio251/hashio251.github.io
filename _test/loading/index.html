@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- robots setting -->
+    <meta name="robots" content="noindex">  
     <title>Test page</title>
   </head>
 
@@ -18,8 +20,9 @@
   place-items: center;
 }
 
-.loading-inner {
-  
+.loading-image-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .loading-spinner {
@@ -69,9 +72,9 @@ img {
     <div class="loading-inner">
     <div id="loading">
       <div class="loading-img-container">
-      <img class="loading-spinner" src="./loading.png" alt="" />
-      <img class="loading-spinner" src="./loading2.png" alt="" />
-      <img class="loading-spinner" src="./loading4.png" alt="" />
+      <img class="not-spinner" src="../../assets/images/loading/ramen.png" alt="" />
+      <img class="not-spinner" src="../../assets/images/loading/chop-stick.png" alt="" />
+      <p class="loading-txt">Now Loading ...</p>
     </div>
       <p class="loading-txt">Now Loading ...</p>
     </div>

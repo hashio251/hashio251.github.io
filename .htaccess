@@ -1,2 +1,72 @@
-// ルートパスで記述
+# ========================================
+# Apache Configuration
+# ========================================
+#
+# NOTE:
+# This file is not used by GitHub Pages.
+# It is intended for future deployment
+# to an Apache web server.
+#
+# NOTE:
+# ▼将来の追加項目▼
+# HTTPSへのリダイレクト
+# wwwあり/なしの統一
+# 301リダイレクト
+# アクセス制限
+# 圧縮
+# キャッシュ
+# セキュリティヘッダー
+# ========================================
+
+
+
+# ========================================
+# Error Page ルートパスで記述
+# ========================================
+
 ErrorDocument 404 /404.html
+ErrorDocument 404 /404.html
+
+
+# ========================================
+# Directory
+# ========================================
+
+# ディレクトリ一覧を表示しない
+Options -Indexes
+
+
+# ========================================
+# Security Headers
+# ========================================
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+
+# ========================================
+# Cache
+# ========================================
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+
+# ========================================
+# Robots Control
+# ========================================
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex"
+</IfModule>
