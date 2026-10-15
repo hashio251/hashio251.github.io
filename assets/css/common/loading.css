@@ -11,14 +11,20 @@
 .loading-img-container {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  background: none;
 }
 
 .loading-spinner {
   width: 200px;
   height: 200px;
-  animation: spin .1s linear infinite;
+  animation: spin .2s linear infinite;
   background: none;
+  &
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
 }
 
 @keyframes spin {
@@ -32,12 +38,16 @@
 }
 
 .loading-txt {
+  margin-top: 2em;
   font-size: 2em;
+  text-align: center;
+  padding-left: 1em;
   background: none;
+  opacity: .6;
 }
 
 .loaded {
-  opacity: .5;
+  opacity: .8;
   visibility: hidden;
 }
 
@@ -48,9 +58,4 @@ display: grid;
 gap: 10px;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
-img {
-width: 100%;
-height: 300px;
-object-fit: cover;
-} */
+ */
