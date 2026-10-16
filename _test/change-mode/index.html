@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Mode Setting</title>
+  <style>
+body {
+  padding: 2em;
+  transition: .5s;
+}
+
+#btn {
+  background: rgb(116, 116, 190);
+  padding: 1em;
+  margin-bottom: 2em;
+  font-size: 1em;
+  border-radius: .5em;
+  border: 0;
+  cursor: pointer;
+}
+
+.dark-theme {
+  background: #000;
+  color: #ddd;
+  #btn {
+    color: #ddd;
+  }
+}
+  </style>
+</head>
+
+
+<body>
+  <button id="btn">Change Dark Mode</button>
+  <h1>text text text text text text text text text text text text text text text text</h1>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <h2>text text text text text text text text text text text text text text text text</h2>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+  <p>text text text text text text text text text text text text text text text text</p>
+
+  <script>
+    const btn = document.querySelector('#btn');
+
+    btn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+      if (btn.textContent === 'Change Dark Mode') {
+        btn.textContent = 'Change White Mode';
+      } else {
+        btn.textContent = 'Change Dark Mode';
+      }
+    })
+  </script>
+</body>
+
+
+</html>

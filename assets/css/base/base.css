@@ -3,7 +3,23 @@
 /* base settings */
 
 
-:root {
+:root,
+/* default color */
+[data-theme = "green"] {
+  --loading-bg: #ddd;
+  --col-main-bg: #b5d287;
+  --col-h1: #2b2d28;
+  --col-h1-border: #4d5047;
+  --col-h2: #4d5047;
+  --col-h3: #e5e5e5;
+  --col-li: #515D40;
+  --col-link-bg: #656565;
+  --col-link-hover: #b22222;
+  --col-shadow: #44473f;
+}
+
+/* custom display color : white */
+[data-theme = "white"] {
   --h1-col: #2b2d28;
   --h2-col: #4d5047;
   --h3-col: #e5e5e5;
@@ -12,6 +28,20 @@
   --link-hover: #b22222;
   --shadow-col: #44473f;
 }
+
+/* custom display color : black */
+[data-theme = "black"] {
+  --h1-col: #2b2d28;
+  --h2-col: #4d5047;
+  --h3-col: #e5e5e5;
+  --li-col: #515D40;
+  --link-bg: #656565;
+  --link-hover: #b22222;
+  --shadow-col: #44473f;
+}
+
+
+
 
 * {
   margin: 0;
@@ -43,3 +73,6 @@ html {
   src: url(https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
 }
 
+body {
+  transition: .5s;
+}

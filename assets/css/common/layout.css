@@ -29,11 +29,11 @@ h1 {
   text-align: center;
   width: 23rem;
   margin: 5rem auto;
-  border-bottom: 1px solid var(--h2-col);
+  border-bottom: 1px solid var(--col-h1-border);
   line-height: 50%;
   font-size: 5rem;
   font-family: Zeyada;
-  color: var(--h1-col);
+  color: var(--col-h1);
   transform: skewX(-0.05turn);
   flex-shrink: 0;
 }
@@ -41,19 +41,19 @@ h1 {
 h2 {
   text-align: center;
   font-size: 3rem;
-  color: var(--h2-col);
+  color: var(--col-h2);
 }
 
 h3 {
   font-size: 2.5rem;
-  color: var(--h3-col);
+  color: var(--col-h3);
 }
 
 
 footer {
   margin: 6rem 0 2rem 0;
   text-align: center;
-  color: var(--h1-col);
+  color: var(--col-h1);
 }
 
 
