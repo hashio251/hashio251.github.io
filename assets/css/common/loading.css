@@ -1,6 +1,6 @@
 #loading {
   transition: all 1.5s;
-  background-color: #ddd;
+  background-color: var(--col-loading-bg);
   position: fixed;
   z-index: 9999;
   inset: 0;

@@ -111,8 +111,8 @@ textarea {
   height: auto;
   padding: 0.5rem;
   resize: vertical;
-  background-color: #d9edb2;
-  border: 2px solid #616459;
+  background-color: var(--col-nav-bg);
+  border: 2px solid var(--col-form-border);
   border-radius: 2px;
   box-sizing: border-box;
 }
@@ -120,8 +120,8 @@ textarea {
 .contact-sec input:focus,
 textarea:focus {
   outline: none;
-  border-color: #8fb67a;
-  box-shadow: 0 0 0 4px rgba(143, 182, 122, 0.12);
+  border-color: var(--col-form-focus);
+  box-shadow: var(--shadow-form-focus);
 }
 
 button {
@@ -129,12 +129,12 @@ button {
   height: auto;
   margin-top: 2rem;
   padding: 0.3rem;
-  background-color: #616459;
-  border: 2px solid #c3c9b2;
+  background-color: var(--col-form-border);
+  border: 2px solid var(--col-btn-border);
   border-radius: 3px;
-  color: var(--h3-col);
+  color: var(--col-h3);
 }
 
 button:hover {
-  background-color: #373931;
+  background-color: var(--col-btn-hover);
 }

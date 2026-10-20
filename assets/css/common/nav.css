@@ -57,7 +57,7 @@ a:active {
 }
 
 .outer-menu .checkbox-toggle:hover+.hamburger {
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-nav);
 }
 
 .outer-menu .checkbox-toggle:checked:hover+.hamburger>div {
@@ -80,7 +80,7 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--li-col);
+  background-color: var(--col-li);
 }
 
 .outer-menu .hamburger>div {
@@ -88,7 +88,7 @@ a:active {
   flex: none;
   width: 100%;
   height: 2px;
-  background: var(--h3-col);
+  background: var(--col-h3);
   transition: all 0.4s ease;
   display: flex;
   align-items: center;
@@ -132,8 +132,8 @@ a:active {
 .outer-menu .menu>div {
   width: 600px;
   height: 200vw;
-  color: rgba(255, 255, 255, 0.95);
-  background: #d9edb2;
+  color: var(--col-nav-text);
+  background: var(--col-nav-bg);
   border-radius: 50%;
   transition: all 0.4s ease;
   flex: none;
@@ -197,13 +197,13 @@ a:active {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--h3-col);
+  background: var(--col-h3);
   transition: width 0.4s ease;
 }
 
 /* submenu */
 ul.submenu {
-  color: lavenderblush;
+  color: var(--col-nav-submenu);
   font-size: medium;
   margin-top: .3em;
   list-style: tibetan;
@@ -215,7 +215,7 @@ ul.submenu {
 }
 
 .submenu>li:hover>a {
-  color: var(--link-bg);
+  color: var(--col-link-bg);
   transition: color 0.4s ease;
 }
 

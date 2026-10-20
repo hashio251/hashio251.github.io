@@ -16,7 +16,7 @@
 
 .works-item-inner>h2 {
   margin: 4rem 0 1rem;
-  border-bottom: 1px solid var(--link-hover);
+  border-bottom: 1px solid var(--col-link-hover);
   width: fit-content;
   line-height: .8;
   padding: 0 5em 0 1em;
@@ -41,7 +41,7 @@
 
 .works-thumbnail {
   aspect-ratio: 11/7;
-  box-shadow: 0 0 2px var(--shadow-col);
+  box-shadow: 0 0 2px var(--col-shadow);
   border-radius: 2%;
   transition: all 0.4s ease;
 }
@@ -57,15 +57,15 @@
   font-size: 1.5rem;
   border-radius: 1px;
   text-decoration: none;
-  color: #fff !important;
-  background-color: var(--link-bg);
+  color: var(--col-link-text) !important;
+  background-color: var(--col-link-bg);
   opacity: 0.6;
   cursor: alias;
   min-width: 250px;
 }
 
 .link-2:hover {
-  background-color: var(--link-hover);
+  background-color: var(--col-link-hover);
 }
 
 
@@ -113,14 +113,14 @@
   max-width: 600px;
   cursor: pointer;
   border-radius: 2px;
-  box-shadow: 0 0 2px var(--shadow-col);
+  box-shadow: 0 0 2px var(--col-shadow);
   opacity: 0.9;
   transition: all 0.3s ease;
 }
 
 .img-2:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px #00000066;
+  box-shadow: var(--shadow-image-hover);
 }
 
 .seen-txt {
@@ -129,7 +129,7 @@
   justify-content: flex-start;
   text-align: left;
   font-size: 1.5rem;
-  color: var(--li-col);
+  color: var(--col-li);
 }
 
 

@@ -8,10 +8,10 @@
 /* about page */
 /* about page */
 .outer-menu-about .hamburger {
-  background-color: #9aac67;
+  background-color: var(--col-nav-hamburger-about);
 }
 .outer-menu-about .hamburger>div {
-  background: #515D40;
+  background: var(--col-li);
 }
 
 #about-page h1 {
@@ -62,7 +62,7 @@
 .about-click-txt {
   margin-bottom: 7rem;
   font-size: 1.5rem;
-  color: var(--h2-col);
+  color: var(--col-h2);
   display: inline-block;
   /* transformを効かせるため */
   white-space: nowrap;
@@ -89,7 +89,7 @@
 .about-powerpoint img {
   height: 30vh;
   margin: 6rem 0;
-  box-shadow: 0 0 2px var(--shadow-col);
+  box-shadow: 0 0 2px var(--col-shadow);
   border-radius: 2%;
   opacity: 0.6;
   transform: scale(0.97);
@@ -106,7 +106,7 @@
   grid-template-columns: 1fr 1.5fr;
   gap: 1rem 1rem;
   font-size: 1.3rem;
-  color: var(--shadow-col);
+  color: var(--col-shadow);
 }
 
 .about-dl li {
@@ -116,13 +116,13 @@
 .about-dl li::before {
   content: "▶︎";
   margin-right: 0.5rem;
-  color: var(--li-col);
+  color: var(--col-li);
 }
 
 dd {
   margin-bottom: 2rem;
   font-size: 0.8rem;
-  color: var(--h2-col);
+  color: var(--col-h2);
 }
 
 

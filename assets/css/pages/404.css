@@ -49,7 +49,7 @@ p.back-to-top {
   justify-content: center;
   margin-top: 1.5em;
   font-size: 1.5em;
-  border: 1px solid var(--h2-col);
+  border: 1px solid var(--col-h2);
   border-radius: 5px;
 }
 
@@ -61,12 +61,12 @@ p.back-to-top a {
 }
 
 p.back-to-top:hover {
-  background-color: var(--link-bg);
+  background-color: var(--col-link-bg);
   opacity: .7;
 }
 
 p.back-to-top:hover a {
-  color: #ffffff;
+  color: var(--col-link-text);
 }
 
 

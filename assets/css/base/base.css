@@ -3,19 +3,39 @@
 /* base settings */
 
 
+/* separate thema root settings */
+/* separate thema root settings */
+/* separate thema root settings */
 :root,
 /* default color */
 [data-theme = "green"] {
-  --loading-bg: #ddd;
   --col-main-bg: #b5d287;
+  --col-loading-bg: #ddd;
   --col-h1: #2b2d28;
   --col-h1-border: #4d5047;
   --col-h2: #4d5047;
   --col-h3: #e5e5e5;
-  --col-li: #515D40;
+  --col-li: #515d40;
+  --col-nav-text: rgba(255, 255, 255, 0.95);
+  --col-nav-bg: #d9edb2;
+  --col-nav-hover: #707566;
+  --col-nav-hamburger: #515d40;
+  --col-nav-hamburger-about: #9aac67;
+  --col-nav-submenu: lavenderblush;
   --col-link-bg: #656565;
   --col-link-hover: #b22222;
+  --col-link-text: #fff;
+  --col-form-bg: #d9edb2;
+  --col-form-border: #616459;
+  --col-form-focus: #8fb67a;
+  --col-btn-bg: #616459;
+  --col-btn-border: #c3c9b2;
+  --col-btn-hover: #373931;
+  --col-btn-text: #e5e5e5;
   --col-shadow: #44473f;
+  --shadow-nav: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  --shadow-form-focus: 0 0 0 4px rgba(143, 182, 122, 0.12);
+  --shadow-image-hover: 0 8px 20px #00000066;
 }
 
 /* custom display color : white */
@@ -42,13 +62,29 @@
 
 
 
+/* commom root settings */
+/* commom root settings */
+/* commom root settings */
+:root {
+  --fontfam-en: Zeyada;
+  --fontfam-ja: serif;
+  --fontsiz-h1: 5em;
+  --fontsiz-h2: 3em;
+  --fontsiz-h3: 2.5em;
+  --fontsiz-h4: 2em;
+  --fontsiz-defa: 1em;
+}
 
+
+/* common main settings */
+/* common main settings */
+/* common main settings */
 * {
   margin: 0;
   padding: 0;
-  background-color: #b5d287;
+  background-color: var(--col-main-bg);
   box-sizing: border-box;
-  font-family: Zeyada;
+  font-family: var(--fontfam-en);
   font-weight: 200;
 
 }
