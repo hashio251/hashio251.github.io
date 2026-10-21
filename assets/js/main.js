@@ -1,6 +1,11 @@
 // ========================================
 // original js code (vanilla js♪)
 // ========================================
+
+
+// page-fadeup
+// page-fadeup
+// page-fadeup
 const fadeElements = document.querySelectorAll(".fade-up");
 
 // responsive用の変数
@@ -22,4 +27,18 @@ const observer = new IntersectionObserver(
 
 fadeElements.forEach((element) => {
   observer.observe(element);
+});
+
+
+
+// select-color-theme
+// select-color-theme
+// select-color-theme
+const themeBtn = document.querySelectorAll('[data-theme-value]');
+
+themeBtn.forEach((button) => {
+  button.addEventListener("click", () => {
+    const selectedTheme = button.dataset.themeValue;
+    document.documentElement.dataset.theme = selectedTheme;
+  });
 });

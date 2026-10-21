@@ -16,6 +16,7 @@
   --col-h1-border: #4d5047;
   --col-h2: #4d5047;
   --col-h3: #e5e5e5;
+  --col-p: #474b44;
   --col-li: #515d40;
 
   --col-nav-text: rgba(255, 255, 255, 0.95);
@@ -49,30 +50,31 @@
   --col-main-bg: #f6f5f0;
   --col-loading-bg: #e9e7df;
 
-  --col-h1: #30332f;
-  --col-h1-border: #656b62;
-  --col-h2: #454b43;
-  --col-h3: #575d54;
-  --col-li: #454b43;
+  --col-h1: #354b31;
+  --col-h1-border: #71896b;
+  --col-h2: #41633a;
+  --col-h3: #52694e;
+  --col-p: #41633a;
+  --col-li: #8fb67a;
 
-  --col-nav-text: #393b37;
+  --col-nav-text: #2b2d28;
   --col-nav-bg: #e9e7df;
-  --col-nav-hover: #70796c;
-  --col-nav-hamburger: #575d54;
+  --col-nav-hover: #52694e;
+  --col-nav-hamburger: #393f37;
   --col-nav-hamburger-about: #9ca79a;
-  --col-nav-submenu: #575d54;
+  --col-nav-submenu: #454b43;
 
-  --col-link-bg: #575d54;
-  --col-link-hover: #a45c55;
+  --col-link-bg: #41633a;
+  --col-link-hover: #708b61;
   --col-link-text: #fff;
 
   --col-form-bg: #fff;
-  --col-form-border: #92998e;
-  --col-form-focus: #71896b;
+  --col-form-border: #71896b;
+  --col-form-focus: #41633a;
 
-  --col-btn-bg: #575d54;
-  --col-btn-border: #b6bdb2;
-  --col-btn-hover: #393f37;
+  --col-btn-bg: #41633a;
+  --col-btn-border: #a5b59c;
+  --col-btn-hover: #354b31;
   --col-btn-text: #fff;
 
   --col-shadow: #555b52;
@@ -87,34 +89,35 @@
   --col-loading-bg: #292e29;
 
   --col-h1: #f0efe8;
-  --col-h1-border: #a7b0a1;
-  --col-h2: #d6ded1;
+  --col-h1-border: #b6c3b0;
+  --col-h2: #e1e5dc;
   --col-h3: #f0efe8;
-  --col-li: #c2d1ba;
+  --col-p: #e1e5dc;
+  --col-li: #9fa89a;
 
-  --col-nav-text: #f0efe8;
+  --col-nav-text: #b5d287;
   --col-nav-bg: #30382f;
-  --col-nav-hover: #b7d5a7;
-  --col-nav-hamburger: #52694e;
-  --col-nav-hamburger-about: #71896b;
-  --col-nav-submenu: #d6ded1;
+  --col-nav-hover: #e0f0cc;
+  --col-nav-hamburger: #71896b;
+  --col-nav-hamburger-about: #52694e;
+  --col-nav-submenu: #c2d1ba;
 
-  --col-link-bg: #52694e;
-  --col-link-hover: #a85f5c;
-  --col-link-text: #fff;
+  --col-link-bg: #71896b;
+  --col-link-hover: #b5d287;
+  --col-link-text: #a9d2a9;
 
   --col-form-bg: #30382f;
   --col-form-border: #869582;
-  --col-form-focus: #a8c49b;
+  --col-form-focus: #b5d287;
 
-  --col-btn-bg: #52694e;
+  --col-btn-bg: #b5d287;
   --col-btn-border: #869582;
-  --col-btn-hover: #71896b;
-  --col-btn-text: #fff;
+  --col-btn-hover: #d9edb2;
+  --col-btn-text: #202320;
 
   --col-shadow: #111511;
   --shadow-nav: inset 0 0 10px rgba(0, 0, 0, 0.3);
-  --shadow-form-focus: 0 0 0 4px rgba(168, 196, 155, 0.2);
+  --shadow-form-focus: 0 0 0 4px rgba(181, 210, 135, 0.2);
   --shadow-image-hover: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
