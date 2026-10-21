@@ -8,6 +8,10 @@
 /* news page */
 /* news page */
 
+h3 {
+  font-family: var(--fontfam-ja);
+}
+
 .news-sec {
   margin: 0 auto;
   max-width: fit-content;
@@ -15,4 +19,9 @@
 
 ul.news-ul {
   list-style: none;
+}
+
+li.news-li {
+  padding: 1em 0;
+  border-bottom: 1px solid var(--col-link-hover);
 }
