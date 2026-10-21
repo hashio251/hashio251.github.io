@@ -2,3 +2,17 @@
 @import url("../common/layout.css");
 @import url("../common/nav.css");
 @import url("../common/animation.css");
+
+
+/* news page */
+/* news page */
+/* news page */
+
+.news-sec {
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+ul.news-ul {
+  list-style: none;
+}

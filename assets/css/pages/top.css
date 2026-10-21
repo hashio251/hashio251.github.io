@@ -119,6 +119,7 @@ a.link-to {
   font-size: 1.2em;
   text-decoration: underline;
   line-height: 2em;
+  color: var(--col-link-hover);
 }
 
 nav.home-small-nav {

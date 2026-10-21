@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
   <!-- icon setting -->
-  <link rel="icon" href="../assets/images/favicon1.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/images/favicon.svg1" type="image/svg+xml">
   <link rel="icon" href="../assets/images/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
   <!-- 使用SVGを再作成、または、使用SVGを決めてから元のSVGから書き出し複製を行い、再度設定
@@ -24,11 +24,11 @@
 </head>
 
 
-<body class="top-page">
+<body>
   <!-- nav -->
   <header>
     <nav>
-      <div class="outer-menu outer-menu-about">
+      <div class="outer-menu">
         <input class="checkbox-toggle" type="checkbox" />
         <div class="hamburger">
           <div></div>
@@ -61,12 +61,12 @@
               <!-- Theme Switcher -->
               <ul>
                 <li class="theme-switcher">
-                <span class="theme-label">Theme</span>
-                <div class="theme-buttons">
-                  <button type="button" data-theme-value="green" aria-label="Greenテーマ">Green</button>
-                  <button type="button" data-theme-value="white" aria-label="Whiteテーマ">White</button>
-                  <button type="button" data-theme-value="black" aria-label="Blackテーマ">Black</button>
-                </div>
+                  <span class="theme-label">Theme</span>
+                  <div class="theme-buttons">
+                    <button type="button" data-theme-value="green" aria-label="Greenテーマ">Green</button>
+                    <button type="button" data-theme-value="white" aria-label="Whiteテーマ">White</button>
+                    <button type="button" data-theme-value="black" aria-label="Blackテーマ">Black</button>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -76,65 +76,61 @@
     </nav>
   </header>
 
-  <main id="notfound-main">
-<div class="news-page">
-  <h1>News</h1>
-  <h2></h2>
-  <div>
-    <ul>
-      <!-- <li>
-        <a href="">
-          <time datetime="2026-00-00">2026/00/00</time>
-          <p class="news-category">カテゴリー</p>
-          <h3>内容</h3>
-        </a>
-      </li> -->
+  <main>
+    <h1>News</h1>
 
-      <li>
-        <a href="">
-          <time datetime="2026-10-04">2026/10/04</time>
-          <p class="news-category">フロントエンド</p>
-          <h3>【ポートフォリオ】ニュースページを追加しました</h3>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <time datetime="2026-09-29">2026/09/29</time>
-          <p class="news-category">資格取得</p>
-          <h3>【3級 ウェブデザイン技能士】資格を取得しました</h3>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <time datetime="2026-09-28">2026/09/28</time>
-          <p class="news-category">バックエンド</p>
-          <h3>【Java/CLI-App】HTTP STATUS HOUSEを開発しました</h3>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <time datetime="2026-09-19">2026/09/19</time>
-          <p class="news-category">イベント</p>
-          <h3>【個人的ニュース】豊洲ナイトマラソンに参加し、10Kmを完走しました</h3>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <time datetime="2026-09-15">2026/09/15</time>
-          <p class="news-category">フロントエンド</p>
-          <h3>【ポートフォリオ】トップページのリニューアルを行いました</h3>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <time datetime="2026-08-23">2026/08/23</time>
-          <p class="news-category">イベント</p>
-          <h3>【チーム開発】ハッカソンに参加し、制作物を提出しました</h3>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+
+    <div class="news-sec">
+      <h2></h2>
+      <div class="news-container">
+        <div class="news-con-inner">
+          <ul class="news-ul">
+            <li class="news-li">
+              <a href="">
+                <time datetime="2026-10-04">2026/10/04</time>
+                <p class="news-category">フロントエンド</p>
+                <h3 class="h5fs">【ポートフォリオ】ニュースページを追加しました</h3>
+              </a>
+            </li>
+            <li class="news-li">
+              <a href="">
+                <time datetime="2026-09-29">2026/09/29</time>
+                <p class="news-category">資格取得</p>
+                <h3 class="h5fs">【3級 ウェブデザイン技能士】資格を取得しました</h3>
+              </a>
+            </li>
+            <li class="news-li">
+              <a href="">
+                <time datetime="2026-09-28">2026/09/28</time>
+                <p class="news-category">バックエンド</p>
+                <h3 class="h5fs">【Java/CLI-App】HTTP STATUS HOUSEを開発しました</h3>
+              </a>
+            </li>
+            <li class="news-li">
+              <a href="">
+                <time datetime="2026-09-19">2026/09/19</time>
+                <p class="news-category">イベント</p>
+                <h3 class="h5fs">【個人的ニュース】豊洲ナイトマラソンに参加し、10Kmを完走しました</h3>
+              </a>
+            </li>
+            <li class="news-li">
+              <a href="">
+                <time datetime="2026-09-15">2026/09/15</time>
+                <p class="news-category">フロントエンド</p>
+                <h3 class="h5fs">【ポートフォリオ】トップページのリニューアルを行いました</h3>
+              </a>
+            </li>
+            <li class="news-li">
+              <a href="">
+                <time datetime="2026-08-23">2026/08/23</time>
+                <p class="news-category">イベント</p>
+                <h3 class="h5fs">【チーム開発】ハッカソンに参加し、制作物を提出しました</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </main>
 
 
