@@ -221,6 +221,13 @@ ul.submenu {
 }
 
 
+/* theme-custom-settings */
+/* theme-custom-settings */
+/* theme-custom-settings */
+li.theme-switcher {
+  margin-top: -.5em !important;
+}
+
 .theme-switcher {
   margin-top: .5em;
   text-align: center;
@@ -265,7 +272,9 @@ li.theme-switcher {
 }
 
 
-
+/* responsive setting */
+/* responsive setting */
+/* responsive setting */
 @media(max-width: 991px) {}
 
 @media(max-width: 769px) {}
