@@ -21,6 +21,24 @@
   <!-- 使用SVGを再作成、または、使用SVGを決めてから元のSVGから書き出し複製を行い、再度設定
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon.ico.svg">
   <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon.ico.svg"> -->
+  <!-- <style>
+    .bookshelf {
+      padding: 2rem;
+    }
+
+    #book-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,
+          minmax(200px, 1fr));
+      gap: 2rem;
+    }
+
+    .book-card img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: contain;
+    }
+  </style> -->
 </head>
 
 
@@ -60,12 +78,12 @@
               <!-- Theme Switcher -->
               <ul>
                 <li class="theme-switcher">
-                <span class="theme-label">Theme</span>
-                <div class="theme-buttons">
-                  <button type="button" data-theme-value="green" aria-label="Greenテーマ">Green</button>
-                  <button type="button" data-theme-value="white" aria-label="Whiteテーマ">White</button>
-                  <button type="button" data-theme-value="black" aria-label="Blackテーマ">Black</button>
-                </div>
+                  <span class="theme-label">Theme</span>
+                  <div class="theme-buttons">
+                    <button type="button" data-theme-value="green" aria-label="Greenテーマ">Green</button>
+                    <button type="button" data-theme-value="white" aria-label="Whiteテーマ">White</button>
+                    <button type="button" data-theme-value="black" aria-label="Blackテーマ">Black</button>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -101,7 +119,8 @@
         <dt>Github Account</dt>
         <dd class="fade-up">
           <ul>
-            <li><a class="about-link" href="https://github.com/hashio251" target="_blank" rel="noopener noreferrer">Github Account(hashio251)</a></li>
+            <li><a class="about-link" href="https://github.com/hashio251" target="_blank"
+                rel="noopener noreferrer">Github Account(hashio251)</a></li>
           </ul>
         </dd>
 
@@ -208,13 +227,15 @@
           <ul>
             <li>
               2026.05　
-              <a href="https://www.ipa.go.jp/shiken/kubun/sg.html" target="_blank" rel="noopener noreferrer" style="font-family: none;">
+              <a href="https://www.ipa.go.jp/shiken/kubun/sg.html" target="_blank" rel="noopener noreferrer"
+                style="font-family: none;">
                 情報セキュリティマネジメント試験（SG）
               </a>
             </li>
             <li>
               2026.09　
-              <a href="https://www.webdesign.gr.jp/" target="_blank" rel="noopener noreferrer" style="font-family: none;">
+              <a href="https://www.webdesign.gr.jp/" target="_blank" rel="noopener noreferrer"
+                style="font-family: none;">
                 3級ウェブデザイン技能士
               </a>
             </li>
@@ -226,15 +247,21 @@
           <ul>
             <li>
               2026.08　
-              <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/ai-society/home" target="_blank" rel="noopener noreferrer" style="font-family: none;">
+              <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/ai-society/home" target="_blank"
+                rel="noopener noreferrer" style="font-family: none;">
                 東京大学 江間研究室「AI × Society」e-learning講座「AI社会の歩き方」修了
               </a>
             </li>
           </ul>
         </dd>
-
       </dl>
     </div>
+    <!-- 読んだ本の掲載（３冊くらいを表示して、詳細はbooksディレクトリを作成し、books/index.htmlに記載する）
+    アコーディオンを実装し、本のimgとタイトルなどのAPIで取れる書籍情報を初期掲載し、開くと学んだことなどを閲覧できる実装を -->
+    <!-- <section class="bookshelf">
+      <h2>bookshelf</h2>
+      <div id="book-li"></div>
+    </section> -->
   </main>
 
   <footer>
@@ -242,6 +269,7 @@
   </footer>
 
   <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/books/books.js" defer></script>
 
 </body>
 
