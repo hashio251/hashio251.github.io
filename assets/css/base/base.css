@@ -16,6 +16,8 @@
   --col-h1-border: #4d5047;
   --col-h2: #4d5047;
   --col-h3: #e5e5e5;
+  --col-h4:#087300;
+  --col-h5:#455344;
   --col-p: #474b44;
   --col-li: #515d40;
 
@@ -54,6 +56,8 @@
   --col-h1-border: #71896b;
   --col-h2: #41633a;
   --col-h3: #52694e;
+  --col-h4:#52694e;
+  --col-h5:#52694e;
   --col-p: #41633a;
   --col-li: #8fb67a;
 
@@ -91,6 +95,8 @@
   --col-h1-border: #b6c3b0;
   --col-h2: #e1e5dc;
   --col-h3: #f0efe8;
+  --col-h4:#f0efe8;
+  --col-h5:#f0efe8;
   --col-p: #e1e5dc;
   --col-li: #9fa89a;
 

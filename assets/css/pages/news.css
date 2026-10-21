@@ -8,7 +8,7 @@
 /* news page */
 /* news page */
 
-h3 {
+h3, time {
   font-family: var(--fontfam-ja);
 }
 

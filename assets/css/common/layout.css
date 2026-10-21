@@ -55,10 +55,12 @@ h3, .h3fs {
 
 h4, .h4fs {
   font-size: var(--fontsiz-h4);
+  color: var(--col-h4);
 }
 
 h5, .h5fs {
   font-size: var(--fontsiz-h5);
+  color: var(--col-h5);
 }
 
 footer {
