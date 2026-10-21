@@ -6,7 +6,7 @@
 // page-fadeup
 // page-fadeup
 // page-fadeup
-const fadeElements = document.querySelectorAll(".fade-up");
+const fadeElements = document.querySelectorAll('.fade-up');
 
 // responsive用の変数
 const isMobile = window.innerWidth <= 769;
@@ -15,7 +15,7 @@ const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add("is-show");
+        entry.target.classList.add('is-show');
         observer.unobserve(entry.target);
       }
     });
@@ -34,11 +34,20 @@ fadeElements.forEach((element) => {
 // select-color-theme
 // select-color-theme
 // select-color-theme
-const themeBtn = document.querySelectorAll('[data-theme-value]');
+const themeCol = document.querySelectorAll('[data-theme-value]');
 
-themeBtn.forEach((button) => {
-  button.addEventListener("click", () => {
+const savedTheme = localStorage.getItem('theme');
+
+if (savedTheme) {
+  document.documentElement.dataset.theme = savedTheme;
+}
+
+themeCol.forEach((button) => {
+  button.addEventListener('click', () => {
     const selectedTheme = button.dataset.themeValue;
+    
     document.documentElement.dataset.theme = selectedTheme;
+
+    localStorage.setItem('theme', selectedTheme);
   });
 });
