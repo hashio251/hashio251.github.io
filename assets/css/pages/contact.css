@@ -138,3 +138,98 @@ button {
 button:hover {
   background-color: var(--col-btn-hover);
 }
+
+
+
+
+/* thanks page */
+/* thanks page */
+/* thanks page */
+#thanks {
+  background: radial-gradient(circle, rgba(181, 210, 135, 1) 0%, rgba(66, 110, 69, 1) 100%);
+}
+
+#thanks-main,
+div.thanks-title,
+div.thanks-text {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  background: transparent;
+}
+
+footer,
+footer>p,
+h2.thanks-main-title,
+p.thanks-main-p,
+.thanks-redirect-btn {
+  background: transparent;
+}
+
+h2.thanks-main-title {
+  margin-bottom: 1em;
+}
+
+.thanks-redirect-btn {
+  margin: 3em 0 1.5em 0;
+  transition: all .7s ease-out;
+  & a {
+    padding: .9em .7em .5em;
+    border-radius: 10% 20% 10% 20%/30% 10% 30% 10%;
+    border: 1px solid var(--col-form-border);
+    opacity: .6;
+  }
+}
+
+.thanks-redirect-btn:hover {
+    transform: scale(1.1);
+}
+
+
+.cir-menu {
+  margin: 2.5em 0 1em 0;
+  display: flex;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.cir-menu>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  width: 180px;
+  height: 180px;
+  margin: 0 -15px;
+  opacity: .6;
+  border: 1px solid var(--col-form-border);
+  &
+  a {
+    font-size: 1.2em;
+    background: transparent;
+    text-decoration: underline;
+  }
+transition: all .5s ease-out;
+}
+
+.cir-menu>div:hover {
+  transform: scale(1.1);
+}
+
+.cir-menu1 {
+  background: #f66;
+  border-radius: 70% 40% 70% 60%/60% 60% 80% 50%;
+}
+.cir-menu2 {
+  background: #f92;
+  border-radius: 40% 80% 60% 70%/40%;
+}
+.cir-menu3 {
+  background: #fc2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+.cir-menu4 {
+  background: #d9d;
+  border-radius: 50% 90% 70% 70%/60% 80% 60% 70%;
+}
