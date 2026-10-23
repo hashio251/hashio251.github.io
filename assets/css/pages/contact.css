@@ -233,3 +233,12 @@ transition: all .5s ease-out;
   background: #d9d;
   border-radius: 50% 90% 70% 70%/60% 80% 60% 70%;
 }
+
+
+@media screen and (max-width: 576px) {
+  .cir-menu>div {
+    width: 100px;
+    height: 100px;
+    margin: 0 -8px;
+  }
+}
