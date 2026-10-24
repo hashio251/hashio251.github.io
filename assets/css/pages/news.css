@@ -4,6 +4,10 @@
 @import url("../common/animation.css");
 
 
+html {
+  max-width: 1800px;
+}
+
 /* news page */
 /* news page */
 /* news page */
@@ -24,4 +28,39 @@ ul.news-ul {
 li.news-li {
   padding: 1em 0;
   border-bottom: 1px solid var(--col-link-hover);
+}
+
+.news-category {
+  color: var(--col-p);
+  padding: .1em;
+  border-radius: 5rem;
+  border: 1px solid var(--col-p);
+  width: 18%;
+  text-align: center;
+  opacity: .5;
+}
+
+/* category-tag-theme */
+.news-category.frontend {
+  background: #e49ed0;
+}
+
+.news-category.backend {
+  background: #9edbe4;
+}
+
+.news-category.event {
+  background: #e4de9e;
+}
+
+
+@media screen and (max-width: 576px) {
+  html {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .news-category {
+  padding: .1em;
+  width: 30%;
+}
 }
