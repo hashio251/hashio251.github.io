@@ -129,7 +129,8 @@
               <p class="txt-num">1000文字以内で入力してください。</p>
               <p class="txt-count">残り<span id="count-span">1000</span>文字</p>
           </div>
-          <button type="submit" class="btn-sbm">送信</button>
+          <label><input id="send-checkbox" type="checkbox" required>利用規約に同意する</label>
+          <button id="send-btn" type="submit" class="btn-sbm" value="送信する" disabled>送信</button>
         </form>
       </div>
 
@@ -142,7 +143,7 @@
   </footer>
 
   <script src="../assets/js/main.js" defer></script>
-  <script src="../assets/js/contact/contact.js"></script>
+  <script src="../assets/js/pages/contact/contact.js" defer></script>
 </body>
 
 </html>

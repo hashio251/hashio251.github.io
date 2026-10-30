@@ -12,3 +12,6 @@ inputMessage.addEventListener('input', () => {
     countSpan.classList.remove('alert');
   }
 });
+
+
+// 利用規約に同意したら送信できる

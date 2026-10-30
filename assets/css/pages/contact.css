@@ -124,6 +124,20 @@ textarea:focus {
   box-shadow: var(--shadow-form-focus);
 }
 
+label {
+  display: block;margin-bottom: 1rem;
+  background: transparent;
+  font-size: .5em;
+  #send-checkbox {
+    width: 1em;
+    background: transparent;
+  }
+}
+
+#send-btn:disabled {
+  background: var(--col-grayout);
+}
+
 button {
   width: min(20vw, 6rem);
   height: auto;
