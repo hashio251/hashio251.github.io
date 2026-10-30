@@ -126,6 +126,8 @@
             <label for="message">message</label>
             <textarea id="message" name="message" rows="5" maxlength="1000" placeholder="Please feel free to contact me"
               aria-describedby="message-help" required></textarea>
+              <p class="txt-num">1000文字以内で入力してください。</p>
+              <p class="txt-count">残り<span id="count-span">1000</span>文字</p>
           </div>
           <button type="submit" class="btn-sbm">送信</button>
         </form>
@@ -140,6 +142,7 @@
   </footer>
 
   <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/contact/contact.js"></script>
 </body>
 
 </html>
