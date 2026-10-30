@@ -15,3 +15,9 @@ inputMessage.addEventListener('input', () => {
 
 
 // 利用規約に同意したら送信できる
+const isAgreed = document.querySelector('#send-checkbox');
+const sendBtn = document.querySelector('#send-btn');
+
+isAgreed.addEventListener('change', () => {
+  sendBtn.disabled = !isAgreed.checked;
+})

@@ -127,6 +127,7 @@ textarea:focus {
 label {
   display: block;margin-bottom: 1rem;
   background: transparent;
+  font-size: 50px;
   font-size: .5em;
   #send-checkbox {
     width: 1em;
