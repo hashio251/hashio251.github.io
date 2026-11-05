@@ -40,6 +40,11 @@ li.news-li {
   opacity: .5;
 }
 
+h3.h5fs {
+  font-size: var(--fontsiz-h5);
+}
+
+
 /* category-tag-theme */
 .news-category.frontend {
   background: #e49ed0;
