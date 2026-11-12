@@ -6,7 +6,8 @@ const books = [
   {
     isbn: "9784815615758", // 例
     cover: "",
-    impression: "",
+    title: "",
+    category: "",
     learning: ""
   }
 ];
