@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    body {
+      text-align: center;
+    }
+    h1 {
+      padding: 5em;
+    }
+    h1#title {
+      display: none;
+    }
+
+  </style>
+  <h1 id="heading">こんにちは</h1>
+
+  <h1 id="title">ラーメンが食べたいですか？</h1>
+  <script>
+    function heading() {
+      const heading = document.querySelector('#heading');
+
+      const keyframes = {
+        opacity: [0, 1],
+        translate: ['0 50px', 0],
+      };
+      const options = {
+        duration: 5000,
+        easing: 'ease',
+      };
+
+      heading.animate(keyframes, options);
+
+    }
+
+    function title() {
+      const title = document.querySelector('#title');
+
+      const keyframes = {
+        opacity: [0, 1],
+        rotate: ['x 360deg', 0],
+      };
+
+      const options = {
+        delay: 5000,
+        duration: 5000,
+        easing: 'ease',
+        fill: 'backwards',
+      }
+
+      title.style.display = 'block';
+      title.animate(keyframes, options);
+
+
+    }
+
+    heading();
+    title();
+  </script>
+
+</body>
+
+</html>
