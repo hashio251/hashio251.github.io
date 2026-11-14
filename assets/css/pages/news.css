@@ -17,6 +17,10 @@ time {
   font-family: var(--fontfam-ja);
 }
 
+time {
+  margin-left: .5em;
+}
+
 .news-sec {
   margin: 0 auto;
   max-width: fit-content;
@@ -33,10 +37,11 @@ li.news-li {
 
 .news-category {
   color: var(--col-p);
-  padding: .1em;
+    padding: .5em .1em .1em .1em;
   border-radius: 5rem;
   border: 1px solid var(--col-p);
-  width: 18%;
+  font-size: small;
+  width: 27%;
   text-align: center;
   opacity: .5;
 }
